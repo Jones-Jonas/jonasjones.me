@@ -2,9 +2,11 @@
 <div class="container">
   <div class="image-wrapper">
     <div class="card-front">
+      <!-- svelte-ignore a11y-img-redundant-alt -->
       <img src="/icon_800x800_transparent.png" alt="My Picture" class="picture">
     </div>
     <div class="card-back">
+      <!-- svelte-ignore a11y-img-redundant-alt -->
       <img src="/root_logo.png" alt="My Picture" class="picture">
     </div>
   </div>
