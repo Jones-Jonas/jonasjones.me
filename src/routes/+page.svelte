@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="links">
-    <a href="home/" class="home-link">Home</a>
+    <a href="https://old.jonasjones.me" class="home-link">Home</a>
     <a href="based/" class="for-the-based-link">For The Based&trade;</a>
     </div>
     <div class="line">
