@@ -1,39 +1,38 @@
 
 <div class="container">
-    <div class="ascii-art">
-    <pre>
-    <code>
- ___________________
-|                   |
-|   ____     ____   |
-|  |    |   |    |  |
-|  |____|   |____|  |
-|            __     |
-|           |__|    |
-|                   |
-|___________________|
-    </code>
-    </pre>
-
-
+  <div class="image-wrapper">
+    <div class="card-front">
+      <img src="/icon_800x800_transparent.png" alt="My Picture" class="picture">
     </div>
-    <div class="links">
-    <a href="home/">Home</a>
-    <a href="the-based/">For The Based(TM)</a>
+    <div class="card-back">
+      <img src="/root_logo.png" alt="My Picture" class="picture">
     </div>
-    <hr>
+  </div>
+  <div class="links">
+    <a href="home/" class="home-link">Home</a>
+    <a href="based/" class="for-the-based-link">For The Based&trade;</a>
+    </div>
+    <div class="line">
+      <hr>
+    </div>
+    <div class="line-content">
+      <p>Idk how this dott got here but im leaving it.</p>
+    </div>
     <div class="social-media">
     <div class="row">
-        <a href="https://github.com"><i class="fab fa-github"></i></a>
-        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-        <a href="https://discord.com"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/J-onasJones"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@JonasJones"><i class="fab fa-youtube"></i></a>
+        <a href="https://discord.gg/V2EsuUVmWh"><i class="fab fa-discord"></i></a>
     </div>
     <div class="row">
-        <a href="https://www.reddit.com"><i class="fab fa-reddit"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.reddit.com/u/Jonas_Jones_"><i class="fab fa-reddit"></i></a>
+        <a href="https://twitter.com/Jonas_Jones_"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_jonas_jones_"><i class="fab fa-instagram"></i></a>
     </div>
-    </div>
+  </div>
+</div>
+<div class="footer">
+  <p>Website by Jonas_Jones @ jonasjones.me. 2021 - 2023</p>
 </div>
   
   <script>
