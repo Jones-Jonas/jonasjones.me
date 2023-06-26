@@ -1,4 +1,4 @@
-
+<Navbar />
 <div class="container">
   <div class="image-wrapper">
     <div class="card-front">
@@ -38,9 +38,10 @@
 </div>
   
   <script>
-    // Add script here if needed
+    import Navbar from '../components/NavBar.svelte';
   </script>
   
+
   <style>
     @import '+page.css';
   </style>
