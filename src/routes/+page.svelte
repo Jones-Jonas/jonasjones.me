@@ -10,6 +10,10 @@
       <img src="/root_logo.png" alt="My Picture" class="picture">
     </div>
   </div>
+  <div class="alpha-test">
+    <h3>Alpha Site</h3>
+    <p>Click <a href="https://alpha.jonasjones.dev/">here</a> to get to the alpha website and check out the latest progress towards the upcoming release</p>
+  </div>
   <div class="links">
     <a href="https://old.jonasjones.me" class="home-link">Home</a>
     <a href="based/" class="for-the-based-link">For The Based&trade;</a>

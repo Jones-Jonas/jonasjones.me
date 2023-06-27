@@ -136,3 +136,16 @@ body {
   transform: scale(100);
   color: gray;
 }
+
+
+.alpha-test {
+  background-color: orange;
+  border-radius: 0px 0px 0px 25px;
+  padding-right: 15px;
+  color: #fff;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
