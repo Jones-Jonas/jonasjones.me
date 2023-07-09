@@ -1,23 +1,18 @@
+<ParallaxBg>
+<Navbar />
+<title>Jonas_Jones</title>
 
-<div class="container">
   <div class="image-wrapper">
     <div class="card-front">
       <!-- svelte-ignore a11y-img-redundant-alt -->
-      <img src="/icon_800x800_transparent.png" alt="My Picture" class="picture">
+      <img src="/icon_800x800_transparent.webp" alt="My Picture" class="picture">
     </div>
     <div class="card-back">
       <!-- svelte-ignore a11y-img-redundant-alt -->
-      <img src="/root_logo.png" alt="My Picture" class="picture">
+      <img src="/root_logo.webp" alt="My Picture" class="picture">
     </div>
   </div>
-  <div class="alpha-test">
-    <h3>Alpha Site</h3>
-    <p>Click <a href="https://alpha.jonasjones.dev/">here</a> to get to the alpha website and check out the latest progress towards the upcoming release</p>
-  </div>
-  <div class="links">
-    <a href="https://old.jonasjones.me" class="home-link">Home</a>
-    <a href="based/" class="for-the-based-link">For The Based&trade;</a>
-    </div>
+  
     <div class="line">
       <hr>
     </div>
@@ -27,7 +22,7 @@
     <div class="social-media">
     <div class="row">
         <a href="https://github.com/J-onasJones"><i class="fab fa-github"></i></a>
-        <a href="https://www.youtube.com/@JonasJones"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.youtube.com/channel/UCVIxvKBIMSMgurYS8pK7fSg"><i class="fab fa-youtube"></i></a>
         <a href="https://discord.gg/V2EsuUVmWh"><i class="fab fa-discord"></i></a>
     </div>
     <div class="row">
@@ -36,15 +31,16 @@
         <a href="https://www.instagram.com/_jonas_jones_"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
-</div>
-<div class="footer">
-  <p>Website by Jonas_Jones @ jonasjones.me. 2021 - 2023</p>
-</div>
+</ParallaxBg>
+<Footer />
   
   <script>
-    // Add script here if needed
+    import Navbar from '../components/NavBar.svelte';
+    import Footer from '../components/Footer.svelte';
+    import ParallaxBg from '../components/ParallaxBg.svelte';
   </script>
   
+
   <style>
     @import '+page.css';
   </style>
