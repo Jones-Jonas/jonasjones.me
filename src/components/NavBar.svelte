@@ -96,6 +96,9 @@
       text-align: center;
       width: 100%;
       display: flex;
+      position: fixed;
+      top: 0;
+      z-index: 1;
     }
 
     .logo {

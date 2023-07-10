@@ -1,7 +1,9 @@
 <ParallaxBg>
 <Navbar />
 <title>Jonas_Jones</title>
-
+  <!-- please god dont send me to hell for doing this -->
+  <h1> </h1>
+  <h1> </h1>
   <div class="image-wrapper">
     <div class="card-front">
       <!-- svelte-ignore a11y-img-redundant-alt -->

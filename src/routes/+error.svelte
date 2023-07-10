@@ -5,6 +5,9 @@
 </script>
 <ParallaxBg>
     <NavBar />
+    <!-- please god dont send me to hell for doing this -->
+    <h1> </h1>
+    <h1> </h1>
     <title>404 - Page not found</title>
     <center>
         <h1>ERROR 404</h1>
