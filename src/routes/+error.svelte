@@ -2,12 +2,11 @@
     import NavBar from "../components/NavBar.svelte";
     import Footer from "../components/Footer.svelte";
     import ParallaxBg from "../components/ParallaxBg.svelte";
+    import Padding from "../components/padding.svelte";
 </script>
 <ParallaxBg>
     <NavBar />
-    <!-- please god dont send me to hell for doing this -->
-    <h1> </h1>
-    <h1> </h1>
+    <Padding />
     <title>404 - Page not found</title>
     <center>
         <h1>ERROR 404</h1>

@@ -1,9 +1,7 @@
 <ParallaxBg>
 <Navbar />
 <title>Jonas_Jones</title>
-  <!-- please god dont send me to hell for doing this -->
-  <h1> </h1>
-  <h1> </h1>
+  <Padding />
   <div class="image-wrapper">
     <div class="card-front">
       <!-- svelte-ignore a11y-img-redundant-alt -->
@@ -40,6 +38,7 @@
     import Navbar from '../components/NavBar.svelte';
     import Footer from '../components/Footer.svelte';
     import ParallaxBg from '../components/ParallaxBg.svelte';
+    import Padding from '../components/padding.svelte';
   </script>
   
 
