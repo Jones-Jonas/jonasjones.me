@@ -17,7 +17,7 @@
       <hr>
     </div>
     <div class="line-content">
-      <p>Idk how this dott got here but im leaving it.</p>
+      <p>Idk how this dot got here but im leaving it.</p>
     </div>
     <div class="social-media">
     <div class="row">
