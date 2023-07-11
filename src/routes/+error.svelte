@@ -18,6 +18,7 @@
     <center>
         <h1>ERROR 404</h1>
         <h2>Page not found</h2>
+        <a>오류다</a>
         <div style="height:300px;width:600px">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <img
