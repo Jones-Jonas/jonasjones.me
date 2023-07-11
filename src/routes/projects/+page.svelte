@@ -233,17 +233,17 @@ import Footer from "../../components/Footer.svelte";
           <i class="fa fa-globe" aria-hidden="true"></i>
           <select name="language" id="language" on:change={handleSearchLang}>
             <option value="">All</option>
-            <option value="c">C</option>
+            <option value="clang">C</option>
             <option value="c++">C++</option>
             <option value="py">Python</option>
             <option value="java">Java</option>
-            <option value="rs">Rust</option>
+            <option value="rslang">Rust</option>
             <option value="html">HTML</option>
             <option value="css">CSS</option>
-            <option value="js">Javascript</option>
+            <option value="jslang">Javascript</option>
             <option value="svelte">Svelte</option>
             <option value="sh">Shell</option>
-            <option value="lue">Lua</option>
+            <option value="lualang">Lua</option>
             <option value="ps2">PowerShell 2</option>
           </select>
           <i class="fa fa-tasks" aria-hidden="true"></i>
