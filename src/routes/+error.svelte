@@ -28,6 +28,8 @@
     <center>
         <h1>ERROR 404</h1>
         <h2>Page not found</h2>
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
         <a on:click={toggleTaeyong}>오류다</a>
         <div style="height:300px;width:600px">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -45,6 +47,7 @@
     <Footer />
 </ParallaxBg>
 <div class="taeyong">
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img src="/taeyong.gif" alt="taeyong" on:click={toggleTaeyongoff} height="100%" width="100%" />
 </div>
 
