@@ -3,6 +3,13 @@
     import Footer from "../components/Footer.svelte";
     import ParallaxBg from "../components/ParallaxBg.svelte";
     import Padding from "../components/padding.svelte";
+
+    let isGif1 = true;
+
+    function toggleGif() {
+        isGif1 = !isGif1;
+    }
+
 </script>
 <ParallaxBg>
     <NavBar />
@@ -12,7 +19,12 @@
         <h1>ERROR 404</h1>
         <h2>Page not found</h2>
         <div style="height:300px;width:600px">
-            <img src="http://cdn.jonasjones.me/uploads/homepage/slime-teal.gif" alt="Teal Slime" class="picture">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <img
+                src={isGif1 ? '/johnrefs1.gif' : '/johnrefs2.gif'}
+                alt="Toggle GIF"
+                on:click={toggleGif}
+            />
         </div>
     </center>
     <style>
