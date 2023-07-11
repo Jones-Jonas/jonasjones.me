@@ -12,7 +12,7 @@
   </div>
   <div class="alpha-test">
     <h3>Alpha Site</h3>
-    <p>Click <a href="https://alpha.jonasjones.dev/">here</a> to get to the alpha website and check out the latest progress towards the upcoming release</p>
+    <p>Click <a href="https://alpha.jonasjones-me.pages.dev/">here</a> to get to the alpha website and check out the latest progress towards the upcoming release</p>
   </div>
   <div class="links">
     <a href="https://old.jonasjones.me" class="home-link">Home</a>
