@@ -1,0 +1,125 @@
+[
+    {
+        "title": "Microcraft",
+        "description": "A Minecraft mod that allows for Microcontroller and Singleboard computer control.",
+        "status": "Alpha",
+        "statuscolor": "red",
+        "categories": ["minecraft", "mcmodding","fabric", "quilt"],
+        "languages": ["java"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/Microcraft",
+        "version": "v0.0.1+alpha1",
+        "backgroud": "/microcraft.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/Microcraft",
+            "WB": "/projects/Microcraft",
+            "MR": "https://modrinth.com/mod/microcraft"
+        }
+    },
+    {
+        "title": "NotEnoughCursedness",
+        "description": "A Minecraft mod introducing every little bit of cursed items and behavior into the game.",
+        "status": "Beta",
+        "statuscolor": "orange",
+        "categories": ["minecraft", "mcmodding","fabric", "quilt"],
+        "languages": ["java"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/NotEnoughCursedness",
+        "version": "v0.2.0",
+        "backgroud": "/notenoughcursedness.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/NotEnoughCursedness",
+            "WB": "/projects/NotEnoughCursedness",
+            "MR": "https://modrinth.com/mod/not-enough-cursedness"
+        }
+    },
+    {
+        "title": "BetterConsoleMC",
+        "description": "A more controlable and safer successor to the ConsoleMC mod.",
+        "status": "Alpha",
+        "statuscolor": "red",
+        "categories": ["minecraft", "mcmodding","fabric", "quilt"],
+        "languages": ["java"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/BetterConsoleMC",
+        "version": "v0.0.1-alpha02",
+        "backgroud": "/betterconsolemc.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/BetterConsoleMC",
+            "WB": "/projects/BetterConsoleMC",
+            "MR": "https://modrinth.com/mod/betterconsolemc"
+        }
+    },
+    {
+        "title": "ConsoleMC",
+        "description": "A mod that allows console commands to be executed over the ingame Minecraft chat.",
+        "status": "Beta",
+        "statuscolor": "orange",
+        "categories": ["minecraft", "mcmodding","fabric", "quilt"],
+        "languages": ["java"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/ConsoleMC",
+        "version": "v0.1.0.1",
+        "backgroud": "/consolemc.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/ConsoleMC",
+            "WB": "/projects/ConsoleMC",
+            "MR": "https://modrinth.com/mod/consolemc"
+        }
+    },
+    {
+        "title": "MysteryMod",
+        "description": "The base mod of the Mystery Mod mod-family. It includes the Mystery-API that is required for all other Mystery Mods to work",
+        "status": "Dev",
+        "statuscolor": "purple",
+        "categories": ["minecraft", "mcmodding","fabric", "quilt"],
+        "languages": ["java"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/MysteryMod",
+        "version": "v0.0.0",
+        "backgroud": "/mysterymod.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/MysteryMod",
+            "WB": "/projects/MysteryMod"
+        }
+    },
+    {
+        "title": "Minecraft-Server-Status",
+        "description": "A Python based program that displays Your Minecraft Server's Status Infos.",
+        "status": "Release",
+        "statuscolor": "green",
+        "categories": ["minecraft"],
+        "languages": ["py"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/Minecraft-Server-Status",
+        "version": "v1.2",
+        "backgroud": "/minecraft-server-status.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/Minecraft-Server-Status"
+        }
+    },
+    {
+        "title": "Homepage",
+        "description": "My website at https://jonasjones.dev",
+        "status": "Release",
+        "statuscolor": "green",
+        "categories": ["webdev", "website"],
+        "languages": ["svelte", "js", "html", "css"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/jonasjones.me",
+        "version": "v1.0",
+        "backgroud": "/homepage.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/jonasjones.me",
+            "WB": "/"
+        }
+    },
+    {
+        "title": "Alpha Homepage",
+        "description": "My alpha website at https://alpha.jonasjones.dev",
+        "status": "discontinued",
+        "statuscolor": "yellow",
+        "categories": ["webdev", "website"],
+        "languages": ["svelte", "js", "html", "css"],
+        "gh_api": "https://api.github.com/repos/J-onasJones/alpha.jonasjones.dev",
+        "version": "v1.0",
+        "backgroud": "/alpha-homepage.png",
+        "links": {
+            "GH": "https://github.com/J-onasJones/alpha.jonasjones.dev",
+            "WB": "https://alpha.jonasjones.dev"
+        }
+    }
+]
