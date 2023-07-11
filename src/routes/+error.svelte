@@ -10,6 +10,16 @@
         isGif1 = !isGif1;
     }
 
+    function toggleTaeyong() {
+        const taeyong = document.querySelector('.taeyong');
+        taeyong.style.display = 'block';
+    }
+
+    function toggleTaeyongoff() {
+        const taeyong = document.querySelector('.taeyong');
+        taeyong.style.display = 'none';
+    }
+
 </script>
 <ParallaxBg>
     <NavBar />
@@ -18,7 +28,7 @@
     <center>
         <h1>ERROR 404</h1>
         <h2>Page not found</h2>
-        <a>오류다</a>
+        <a on:click={toggleTaeyong}>오류다</a>
         <div style="height:300px;width:600px">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <img
@@ -28,11 +38,15 @@
             />
         </div>
     </center>
+    
     <style>
         @import '+page.css';
     </style>
     <Footer />
 </ParallaxBg>
+<div class="taeyong">
+    <img src="/taeyong.gif" alt="taeyong" on:click={toggleTaeyongoff} height="100%" width="100%" />
+</div>
 
 <style>
     @import '+page.css';
@@ -45,5 +59,15 @@
     h2 {
         font-size: 35px;
         color: rgb(0, 255, 0);
+    }
+
+    .taeyong {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: none;
     }
 </style>
