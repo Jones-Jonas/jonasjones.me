@@ -50,7 +50,6 @@
   let album_cover = data.recenttracks.track[0].image[1]['\#text'];
   let song_title = data.recenttracks.track[0].name;
   let artist = data.recenttracks.track[0].artist['\#text'];
-   console.log(data);
 
     try {
       // @ts-ignore
@@ -60,9 +59,7 @@
       // @ts-ignore
       document.getElementById("lastfm_logo").style.backgroundImage = `url(${album_cover})`;
       
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
 
     try {
         let is_playing = data.recenttracks.track[0]['\@attr'].nowplaying;
@@ -77,9 +74,7 @@
         try {
           // @ts-ignore
           document.getElementById("lastfm_logo_overlay").src="/pause-icon-256.png";
-        } catch (error) {
-          console.log(error);
-        }
+        } catch (error) {}
       }
   }
   fetchLastFmData();
