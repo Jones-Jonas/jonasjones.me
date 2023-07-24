@@ -19,8 +19,8 @@
         const taeyong = document.querySelector('.taeyong');
         taeyong.style.display = 'none';
     }
-
 </script>
+
 <ParallaxBg>
     <NavBar />
     <Padding />
@@ -40,10 +40,6 @@
             />
         </div>
     </center>
-    
-    <style>
-        @import '+page.css';
-    </style>
     <Footer />
 </ParallaxBg>
 <div class="taeyong">

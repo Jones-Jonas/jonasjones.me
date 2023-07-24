@@ -1,9 +1,10 @@
 <script>
     import Footer from "../../components/Footer.svelte";
-import NavBar from "../../components/NavBar.svelte";
-import ParallaxBg from "../../components/ParallaxBg.svelte";
-import Padding from "../../components/padding.svelte";
+    import NavBar from "../../components/NavBar.svelte";
+    import ParallaxBg from "../../components/ParallaxBg.svelte";
+    import Padding from "../../components/padding.svelte";
 </script>
+
 <ParallaxBg>
     <title>Status</title>
     <div class="container">
