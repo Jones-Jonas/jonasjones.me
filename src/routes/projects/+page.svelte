@@ -1,51 +1,51 @@
 <script lang="ts">
-    import FontAwesome from "../../components/FontAwesome.svelte";
+  import FontAwesome from "../../components/FontAwesome.svelte";
 import Footer from "../../components/Footer.svelte";
-    import NavBar from "../../components/NavBar.svelte";
-    import ParallaxBg from "../../components/ParallaxBg.svelte";
-    import Padding from "../../components/padding.svelte";
+  import NavBar from "../../components/NavBar.svelte";
+  import ParallaxBg from "../../components/ParallaxBg.svelte";
+  import Padding from "../../components/padding.svelte";
 
-  import projects from "./projects.json";
-
-
-  var searchResults = projects;
-
-  var searchtext = '';
-  var searchcategory = '';
-  var searchlanguage = '';
-  var searchstatus = '';
-  
-  function handleSearchText(event) {
-    searchtext = event.target.value.toLowerCase();
-    handleSearch()
-  }
-
-  function handleSearchCategory(event) {
-    searchcategory = event.target.value.toLowerCase();
-    handleSearch()
-  }
-
-  function handleSearchLang(event) {
-    searchlanguage = event.target.value.toLowerCase();
-    handleSearch()
-  }
-
-  function handleSearchStatus(event) {
-    searchstatus = event.target.value.toLowerCase();
-    handleSearch()
-  }
+import projects from "./projects.json";
 
 
-  function handleSearch() {
-    // set searchResults by filtering with searchtext, searchcategory, and searchlanguage
-    searchResults = projects.filter(project => {
-      var text = project.title.toLowerCase() + project.description.toLowerCase();
-      var category = project.categories.join(' ').toLowerCase();
-      var language = project.languages.join(' ').toLowerCase();
-      var status = project.status.toLowerCase();
-      return text.includes(searchtext) && category.includes(searchcategory) && language.includes(searchlanguage) && status.includes(searchstatus);
-    });
-  }
+var searchResults = projects;
+
+var searchtext = '';
+var searchcategory = '';
+var searchlanguage = '';
+var searchstatus = '';
+
+function handleSearchText(event) {
+  searchtext = event.target.value.toLowerCase();
+  handleSearch()
+}
+
+function handleSearchCategory(event) {
+  searchcategory = event.target.value.toLowerCase();
+  handleSearch()
+}
+
+function handleSearchLang(event) {
+  searchlanguage = event.target.value.toLowerCase();
+  handleSearch()
+}
+
+function handleSearchStatus(event) {
+  searchstatus = event.target.value.toLowerCase();
+  handleSearch()
+}
+
+
+function handleSearch() {
+  // set searchResults by filtering with searchtext, searchcategory, and searchlanguage
+  searchResults = projects.filter(project => {
+    var text = project.title.toLowerCase() + project.description.toLowerCase();
+    var category = project.categories.join(' ').toLowerCase();
+    var language = project.languages.join(' ').toLowerCase();
+    var status = project.status.toLowerCase();
+    return text.includes(searchtext) && category.includes(searchcategory) && language.includes(searchlanguage) && status.includes(searchstatus);
+  });
+}
 
 </script>
 
@@ -204,6 +204,24 @@ import Footer from "../../components/Footer.svelte";
       padding-right: 10px;
     }
 
+    .smaller-screen {
+      display: none;
+    }
+
+    @media only screen and (max-width: 620px) {
+      .project-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+      .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .smaller-screen {
+        display: block;
+      }
+    }
+
   </style>
 
 <FontAwesome />
@@ -263,7 +281,7 @@ import Footer from "../../components/Footer.svelte";
             {#each searchResults as project}
             <div class="project">
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <h2 class="project-title">{project.title}<a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
+                <h2 class="project-title">{project.title}<br class="smaller-screen"><br class="smaller-screen"><a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
                 <p class="project-description">{project.description}</p>
                 <div class="project-bg">
                     <img src="/project-banners/{project.backgroud}" alt=" " />

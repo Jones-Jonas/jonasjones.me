@@ -10,7 +10,7 @@ import Padding from "../../components/padding.svelte";
         <Padding />
         <NavBar />
         <h1>About</h1>
-        <p style="padding-left: 200px;padding-right:200px">Once upon a time, in the realm of technology, there emerged a tech prodigy named Jonas Jones. Jonas possessed an unparalleled passion for open-source software and a relentless pursuit of innovation. His vision extended beyond mere conquest; he sought to revolutionize the world with the power of Linux, challenging the dominance of the reigning Windows empire.<br>
+        <p class="text">Once upon a time, in the realm of technology, there emerged a tech prodigy named Jonas Jones. Jonas possessed an unparalleled passion for open-source software and a relentless pursuit of innovation. His vision extended beyond mere conquest; he sought to revolutionize the world with the power of Linux, challenging the dominance of the reigning Windows empire.<br>
             Armed with his trusty 16-framework laptop, Jonas embarked on a quest to dismantle the barriers erected by Windows and liberate the digital landscape. With each line of code he crafted, the Linux revolution grew stronger, captivating hearts and minds worldwide.<br>
             Jonas's expertise in the realm of Linux was awe-inspiring. He possessed an encyclopedic knowledge of the command line, deftly navigating the intricate intricacies of the operating system. His coding skills were matched only by his indomitable spirit and unwavering dedication to the cause.<br>
             Word of Jonas's audacious mission spread like wildfire. From dimly lit hacker forums to bustling tech conferences, his name became synonymous with the Linux uprising. Tech enthusiasts rallied behind him, inspired by his passion and unwavering belief in the power of open-source software.<br>
@@ -31,3 +31,9 @@ import Padding from "../../components/padding.svelte";
     </div>
     <Footer />
 </ParallaxBg>
+
+<style>
+    .text {
+        max-width: 1000px;
+    }
+</style>
