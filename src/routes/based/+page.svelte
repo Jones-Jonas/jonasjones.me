@@ -4,6 +4,7 @@
     import ParallaxBg from "../../components/ParallaxBg.svelte";
     import Padding from "../../components/padding.svelte";
 </script>
+
 <ParallaxBg>
     <NavBar />
     <title>For the Based</title>
@@ -19,12 +20,9 @@
                 <span class="terminal_user__dollar__text">$</span>
             <input title="terminal-input" type="text" id="terminal-input" autocomplete="off" spellcheck="false" autocapitalize="none" class="sc-ilhmMj iNZnsg" value="">
         </div>
-        
     </div>
     <Footer />
 </ParallaxBg>
-
-
 
 <style>
     @import '+page.css';

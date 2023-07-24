@@ -32,8 +32,6 @@
       <p id="lastfm_artist"></p>
     </div>
   </div>
-
-
   <div class="navigation-menu {showMenu ? 'show' : ''}">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div class="hamburger-menu close-button {showMenu ? 'open' : ''}" on:click={toggleMenu}>
@@ -49,9 +47,9 @@
   </div>
 
 </div>
-<div class="unsupported"><TooSmallDimsOverlay /></div>
-
-
+<div class="unsupported">
+  <TooSmallDimsOverlay />
+</div>
 
 <script>
     let showMenu = false;
@@ -60,20 +58,20 @@
     showMenu = !showMenu;
   }
 
-    import TooSmallDimsOverlay from './TooSmallDimsOverlay.svelte';
+  import TooSmallDimsOverlay from './TooSmallDimsOverlay.svelte';
 
-    let navLinks = [
-      { name: 'Home', url: '/' },
-      { name: 'Projects', url: '/projects'},
-      { name: 'For The Based™', url: '/based'},
-      { name: 'Status', url: '/status'},
-      { name: 'About', url: '/about' }
-    ];
+  let navLinks = [
+    { name: 'Home', url: '/' },
+    { name: 'Projects', url: '/projects'},
+    { name: 'For The Based™', url: '/based'},
+    { name: 'Status', url: '/status'},
+    { name: 'About', url: '/about' }
+  ];
 
-    // @ts-ignore
-    let miscLinks = [
-        { name: 'For The Based&trade;', url: '/based'}
-    ]
+  // @ts-ignore
+  let miscLinks = [
+      { name: 'For The Based&trade;', url: '/based'}
+  ]
   const fetch_url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Jonas_Jones&api_key=57c0ca64285c7ca676bb8c2acf320f41&format=json&limit=1"
 
   /**
@@ -97,37 +95,36 @@
   //let song_title = truncateString("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw");
   let artist = truncateString(data.recenttracks.track[0].artist['\#text']);
 
-    try {
-      // @ts-ignore
-      document.getElementById("lastfm_title").innerHTML = song_title;
-      // @ts-ignore
-      document.getElementById("lastfm_artist").innerHTML = artist;
-      // @ts-ignore
-      document.getElementById("lastfm_logo").style.backgroundImage = `url(${album_cover})`;
-      
-    } catch (error) {}
+  try {
+    // @ts-ignore
+    document.getElementById("lastfm_title").innerHTML = song_title;
+    // @ts-ignore
+    document.getElementById("lastfm_artist").innerHTML = artist;
+    // @ts-ignore
+    document.getElementById("lastfm_logo").style.backgroundImage = `url(${album_cover})`;
+    
+  } catch (error) {}
 
-    try {
-        let is_playing = data.recenttracks.track[0]['\@attr'].nowplaying;
-        if (is_playing == "true") {
-        // @ts-ignore
-        document.getElementById("lastfm_logo_overlay").src="/equalizer.gif";
-      } else {
+  try {
+      let is_playing = data.recenttracks.track[0]['\@attr'].nowplaying;
+      if (is_playing == "true") {
+      // @ts-ignore
+      document.getElementById("lastfm_logo_overlay").src="/equalizer.gif";
+    } else {
+      // @ts-ignore
+      document.getElementById("lastfm_logo_overlay").src="/pause-icon-256.png";
+    }
+    } catch (error) {
+      try {
         // @ts-ignore
         document.getElementById("lastfm_logo_overlay").src="/pause-icon-256.png";
-      }
-      } catch (error) {
-        try {
-          // @ts-ignore
-          document.getElementById("lastfm_logo_overlay").src="/pause-icon-256.png";
-        } catch (error) {}
-      }
+      } catch (error) {}
+    }
   }
   fetchLastFmData();
   setInterval(fetchLastFmData, 15000);
   </script>
 
-  
   <style>
     .hamburger-menu {
     position: relative;

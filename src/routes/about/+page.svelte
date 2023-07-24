@@ -1,8 +1,8 @@
 <script>
     import Footer from "../../components/Footer.svelte";
-import NavBar from "../../components/NavBar.svelte";
-import ParallaxBg from "../../components/ParallaxBg.svelte";
-import Padding from "../../components/padding.svelte";
+    import NavBar from "../../components/NavBar.svelte";
+    import ParallaxBg from "../../components/ParallaxBg.svelte";
+    import Padding from "../../components/padding.svelte";
 </script>
 <ParallaxBg>
     <title>About</title>
@@ -23,7 +23,6 @@ import Padding from "../../components/padding.svelte";
             TL;DR: I asked ChatGPT. <br>
             Also, I like K-Pop.
         </p>
-
         <h1>Greatest Acomplishment</h1>
         <p>A severity 7.5/10 rated CVE I received for a humble project of mine as the second ever CVE in Minecraft Modding history!</p>
         <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-39221">CVE-2022-39221</a>
