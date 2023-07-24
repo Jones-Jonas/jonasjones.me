@@ -245,10 +245,6 @@
       flex-grow: 1;
     }
 
-    .lastfm {
-      display: none;
-    }
-
     .nav-links {
       margin-top: 5px;
       margin-bottom: 5px;
@@ -296,7 +292,7 @@
       right: 3px;
       top: 3.5px;
       border-radius: 5px;
-      width:300px;
+      max-width:300px;
       height: 43px;
       overflow: hidden;
     }
