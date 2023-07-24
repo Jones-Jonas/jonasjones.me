@@ -262,6 +262,7 @@
             <option value="sh">Shell</option>
             <option value="lualang">Lua</option>
             <option value="ps2">PowerShell 2</option>
+            <option value="godot">Godot Lang</option>
           </select>
           <i class="fa fa-tasks" aria-hidden="true"></i>
           <select name="status" id="status" on:change={handleSearchStatus}>
