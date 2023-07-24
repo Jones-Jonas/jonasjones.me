@@ -48,7 +48,6 @@
 </div>
 
 <style>
-    @import '+page.css';
     h1 {
         font-size: 50px;
         color: rgb(0, 255, 0);
