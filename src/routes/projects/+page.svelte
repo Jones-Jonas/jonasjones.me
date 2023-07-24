@@ -204,6 +204,10 @@ function handleSearch() {
       padding-right: 10px;
     }
 
+    .smaller-screen {
+      display: none;
+    }
+
     @media only screen and (max-width: 620px) {
       .project-container {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -212,6 +216,9 @@ function handleSearch() {
         width: 100%;
         margin: 0;
         padding: 0;
+      }
+      .smaller-screen {
+        display: block;
       }
     }
 
@@ -274,7 +281,7 @@ function handleSearch() {
             {#each searchResults as project}
             <div class="project">
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <h2 class="project-title">{project.title}<a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
+                <h2 class="project-title">{project.title}<br class="smaller-screen"><br class="smaller-screen"><a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
                 <p class="project-description">{project.description}</p>
                 <div class="project-bg">
                     <img src="/project-banners/{project.backgroud}" alt=" " />
