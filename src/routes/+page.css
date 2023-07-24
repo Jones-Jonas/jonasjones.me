@@ -45,8 +45,8 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .image-wrapper {
