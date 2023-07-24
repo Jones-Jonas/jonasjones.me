@@ -1,14 +1,32 @@
-<script lang="ts">
+<script script lang="ts" async>
+    import { select_option } from "svelte/internal";
     import FontAwesome from "../../components/FontAwesome.svelte";
 import Footer from "../../components/Footer.svelte";
     import NavBar from "../../components/NavBar.svelte";
     import ParallaxBg from "../../components/ParallaxBg.svelte";
     import Padding from "../../components/padding.svelte";
 
-  import projects from "./projects.json";
+  // fetch data from https://cdn.jonasjones.dev/api/projects/projects.json
+  // and store it in a variable called projects
 
+  let searchResults = [];
 
-  var searchResults = projects;
+  async function fetchProjects() {
+    try {
+      const response = await fetch('https://cdn.jonasjones.dev/api/projects/projects.json');
+      console.log(response);
+      if (!response.ok) {
+        throw new Error('Failed to fetch projects data');
+      }
+      projects = await response.json().then(uwu => console.log(projects));
+      searchResults = projects;
+      return projects;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  let projects = fetchProjects();
+  console.log(projects);
 
   var searchtext = '';
   var searchcategory = '';
@@ -17,6 +35,7 @@ import Footer from "../../components/Footer.svelte";
   
   function handleSearchText(event) {
     searchtext = event.target.value.toLowerCase();
+    console.log(projects)
     handleSearch()
   }
 
