@@ -494,7 +494,7 @@
     "title": "Bash Command Alias Editor",
     "description": "This program helps you to create and edit command aliases on the Bash shell",
     "status": "discontinued",
-    "statuscolor": "purple",
+    "statuscolor": "gray",
     "categories": [
       "tools"
     ],
