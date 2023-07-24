@@ -1,0 +1,836 @@
+[
+  {
+    "title": "",
+    "description": "",
+    "status": "",
+    "statuscolor": "",
+    "categories": [
+      ""
+    ],
+    "languages": [
+      ""
+    ],
+    "gh_api": "",
+    "version": "",
+    "backgroud": "",
+    "links": {
+      "GH": "",
+      "WB": "",
+      "MR": ""
+    },
+    "visible": "",
+    "last_update": ""
+  },
+  {
+    "title": "Website",
+    "description": "My website at https://jonasjones.dev",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "webdev",
+      "website"
+    ],
+    "languages": [
+      "css",
+      "svelte",
+      "js",
+      "html"
+    ],
+    "gh_api": "J-onasJones/jonasjones.dev",
+    "version": "---",
+    "backgroud": "/homepage.png",
+    "links": {
+      "GH": "J-onasJones/jonasjones.dev",
+      "WB": "/",
+      "MR": ""
+    },
+    "visible": true,
+    "last_update": 1690149600
+  },
+  {
+    "title": "Minecraft Server Status",
+    "description": "A Python based program that displays Your Minecraft Server's Status Infos",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "tools"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/Minecraft-server-Status",
+    "version": "1.0",
+    "backgroud": "/mcserverstatus.png",
+    "links": {
+      "GH": "J-onasJones/Minecraft-server-Status",
+      "WB": "/projects/Minecraft-server-Status"
+    },
+    "visible": true,
+    "last_update": 1688940000
+  },
+  {
+    "title": "Alpha Website",
+    "description": "Alpha Website at https://alpha.jonasjones.dev",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "webdev",
+      "website"
+    ],
+    "languages": [
+      "svelte",
+      "css",
+      "js",
+      "html"
+    ],
+    "gh_api": "J-onasJones/alpha.jonasjones.dev",
+    "version": "---",
+    "backgroud": "/alpha-homepage.png",
+    "links": {
+      "GH": "J-onasJones/alpha.jonasjones.dev",
+      "WB": "/projects/alpha.jonasjones.dev"
+    },
+    "visible": true,
+    "last_update": 1688853600
+  },
+  {
+    "title": "Microcraft",
+    "description": "A Minecraft mod that allows for Microcontroller and Singleboard computer control",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/Microcraft",
+    "version": "0.1+alpha1",
+    "backgroud": "/microcraft.png",
+    "links": {
+      "GH": "J-onasJones/Microcraft",
+      "WB": "/projects/Microcraft"
+    },
+    "visible": true,
+    "last_update": 1687644000
+  },
+  {
+    "title": "Not Enough Cursedness",
+    "description": "A Minecraft mod introducing every little bit of cursed items/behavior into the game",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/NotEnoughCursedness",
+    "version": "0,2",
+    "backgroud": "/notenoughcursedness.png",
+    "links": {
+      "GH": "J-onasJones/NotEnoughCursedness",
+      "WB": "/projects/NotEnoughCursedness",
+      "MR": "https://modrinth.com/mod/not-enough-cursedness"
+    },
+    "visible": true,
+    "last_update": 1684101600
+  },
+  {
+    "title": "DayZ Linux GUI Launcher",
+    "description": "DayZ Linux GUI Launcher",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "tools",
+      "game"
+    ],
+    "languages": [
+      "rslang",
+      "sh"
+    ],
+    "gh_api": "J-onasJones/dayz-linux-gui-launcher",
+    "version": "0.1.0",
+    "backgroud": "/dayzlauncher.png",
+    "links": {
+      "GH": "J-onasJones/dayz-linux-gui-launcher",
+      "WB": "/projects/dayz-linux-gui-launcher"
+    },
+    "visible": true,
+    "last_update": 1682373600
+  },
+  {
+    "title": "ConsoleMC",
+    "description": "A mod that allows console commands to be executed over the ingame Minecraft chat",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/ConsoleMC",
+    "version": "0.1.0.1",
+    "backgroud": "/consolemc.png",
+    "links": {
+      "GH": "J-onasJones/ConsoleMC",
+      "WB": "/projects/ConsoleMC",
+      "MR": "https://modrinth.com/mod/consolemc"
+    },
+    "visible": true,
+    "last_update": 1682028000
+  },
+  {
+    "title": "Better ConsoleMC",
+    "description": "A more controlable and safer successor to the ConsoleMC mod",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/BetterConsoleMC",
+    "version": "0.0.1+alpha1",
+    "backgroud": "/betterconsolemc.png",
+    "links": {
+      "GH": "J-onasJones/BetterConsoleMC",
+      "WB": "/projects/BetterConsoleMC",
+      "MR": "https://modrinth.com/mod/betterconsolemc"
+    },
+    "visible": true,
+    "last_update": 1682028000
+  },
+  {
+    "title": "MC Webserver",
+    "description": "A simple webserver that runs alongside the Minecraft Server",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/McWebserver",
+    "version": "0.2",
+    "backgroud": "/mcwebserver.png",
+    "links": {
+      "GH": "J-onasJones/McWebserver",
+      "WB": "/projects/McWebserver"
+    },
+    "visible": true,
+    "last_update": 1682028000
+  },
+  {
+    "title": "MysteryMod",
+    "description": "The base mod of the Mystery Mod mod-family. It includes the Mystery-API that is required for all other Mystery Mods to work",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/MysteryMod",
+    "version": "0.1+alpha1",
+    "backgroud": "/mysterymod.png",
+    "links": {
+      "GH": "J-onasJones/MysteryMod",
+      "WB": "/projects/MysteryMod"
+    },
+    "visible": true,
+    "last_update": 1682028000
+  },
+  {
+    "title": "Jonas_Jones API",
+    "description": "api used for my website",
+    "status": "planned",
+    "statuscolor": "yellow",
+    "categories": [
+      "api",
+      "tools"
+    ],
+    "languages": [
+      "js"
+    ],
+    "gh_api": "J-onasJones/jonas_jones-api",
+    "version": "---",
+    "backgroud": "/jjapi.png",
+    "links": {
+      "GH": "J-onasJones/jonas_jones-api",
+      "WB": "/projects/jonas_jones-api"
+    },
+    "visible": false,
+    "last_update": 1677884400
+  },
+  {
+    "title": "Website V1",
+    "description": "The repository for my old homepage at https://old.jonasjones.me",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "webdev",
+      "website"
+    ],
+    "languages": [
+      "html",
+      "css",
+      "js"
+    ],
+    "gh_api": "J-onasJones/Website-v1",
+    "version": "1,0",
+    "backgroud": "/oldwebsite.png",
+    "links": {
+      "GH": "J-onasJones/Website-v1",
+      "WB": "https://old.jonasjones.dev"
+    },
+    "visible": true,
+    "last_update": 1675206000
+  },
+  {
+    "title": "MC Webserver Forge",
+    "description": "A simple webserver that runs alongside the Minecraft Server (Forge version).",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "forge"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/McWebserver-forge",
+    "version": "0,2",
+    "backgroud": "/mcwebserver.png",
+    "links": {
+      "GH": "J-onasJones/McWebserver-forge",
+      "WB": "/projects/McWebserver-forge",
+      "MR": "https://modrinth.com/mod/mcwebserver",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/mcwebserver"
+    },
+    "visible": true,
+    "last_update": 1674946800
+  },
+  {
+    "title": "Windows Bloatware Remover",
+    "description": "A tool that allows for removal of all Preinstalled Apps on Windows that can't be removed by Windows, such as Microsoft Edge",
+    "status": "beta",
+    "statuscolor": "orange",
+    "categories": [
+      "tools"
+    ],
+    "languages": [
+      "py",
+      "rslang"
+    ],
+    "gh_api": "J-onasJones/WindowsBloatwareRemover",
+    "version": "0.1.2",
+    "backgroud": "/bloatremover.png",
+    "links": {
+      "GH": "J-onasJones/WindowsBloatwareRemover",
+      "WB": "/projects/WindowsBloatwareRemover"
+    },
+    "visible": true,
+    "last_update": 1661724000
+  },
+  {
+    "title": "Windows Info Overlay",
+    "description": "A highly configurable overlay that displays system infos",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "tools"
+    ],
+    "languages": [
+      "rslang"
+    ],
+    "gh_api": "J-onasJones/windows-info-overlay",
+    "version": "---",
+    "backgroud": "/winoverlay.png",
+    "links": {
+      "GH": "J-onasJones/windows-info-overlay",
+      "WB": "/projects/windows-info-overlay"
+    },
+    "visible": false,
+    "last_update": 1673737200
+  },
+  {
+    "title": "Better Simple Config",
+    "description": "An upgrade of magistermaks's fabric-simplelibs simple-config system with MC Mod integration",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "forge",
+      "quilt",
+      "lib"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/BetterSimpleConfig",
+    "version": "1.0",
+    "backgroud": "/bettersimpleconfig.png",
+    "links": {
+      "GH": "J-onasJones/BetterSimpleConfig",
+      "WB": "/projects/BetterSimpleConfig"
+    },
+    "visible": true,
+    "last_update": 1670886000
+  },
+  {
+    "title": "QR Generator",
+    "description": "A QR code generator written in rust",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "lib",
+      "tools"
+    ],
+    "languages": [
+      "rslang"
+    ],
+    "gh_api": "J-onasJones/Qr-generator",
+    "version": "---",
+    "backgroud": "/qrgen.png",
+    "links": {
+      "GH": "J-onasJones/Qr-generator",
+      "WB": "/projects/Qr-generator"
+    },
+    "visible": false,
+    "last_update": 1669935600
+  },
+  {
+    "title": "PyTerm2D",
+    "description": "A 2d Python module for easier terminal object rendering",
+    "status": "planned",
+    "statuscolor": "yellow",
+    "categories": [
+      "lib"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/pyterm2d",
+    "version": "---",
+    "backgroud": "/pyterm2d.png",
+    "links": {
+      "GH": "J-onasJones/pyterm2d",
+      "WB": "/projects/pyterm2d"
+    },
+    "visible": false,
+    "last_update": 1668034800
+  },
+  {
+    "title": "The Bobby Car Game",
+    "description": "A multiplayer racing game around bobby cars",
+    "status": "planned",
+    "statuscolor": "yellow",
+    "categories": [
+      "game"
+    ],
+    "languages": [
+      "godot"
+    ],
+    "gh_api": "J-onasJones/TheBobbycarGame",
+    "version": "---",
+    "backgroud": "/bobbycargame.png",
+    "links": {
+      "GH": "J-onasJones/TheBobbycarGame",
+      "WB": "/projects/TheBobbyCarGame"
+    },
+    "visible": false,
+    "last_update": 1666562400
+  },
+  {
+    "title": "Moddah",
+    "description": "A cli tool that allows for easy client and server installation of the FabricMC modloader for Minecraft",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "tools"
+    ],
+    "languages": [
+      "rslang"
+    ],
+    "gh_api": "J-onasJones/moddah",
+    "version": "0.1+alpha1",
+    "backgroud": "/moddah.png",
+    "links": {
+      "GH": "J-onasJones/moddah",
+      "WB": "/projects/moddah"
+    },
+    "visible": true,
+    "last_update": 1666044000
+  },
+  {
+    "title": "Bash Command Alias Editor",
+    "description": "This program helps you to create and edit command aliases on the Bash shell",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "tools"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/BashCommandAliasEditor",
+    "version": "2.0.1",
+    "backgroud": "/bashcmdaliaseditor.png",
+    "links": {
+      "GH": "J-onasJones/BashCommandAliasEditor",
+      "WB": "/projects/BashCommandAliasEditor"
+    },
+    "visible": true,
+    "last_update": 1663624800
+  },
+  {
+    "title": "PI Server Rack",
+    "description": "A system that allows Monitoring of Raspberry PI('s) and it's running Minecraft Server(s)",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "tools"
+    ],
+    "languages": [
+      "c++",
+      "rslang",
+      "c"
+    ],
+    "gh_api": "J-onasJones/PI-server-rack",
+    "version": "0.1+alpha1",
+    "backgroud": "/pi-server-rack.png",
+    "links": {
+      "GH": "J-onasJones/PI-server-rack",
+      "WB": "/projects/PI-server-rack"
+    },
+    "visible": true,
+    "last_update": 1662242400
+  },
+  {
+    "title": "PinBoardBot",
+    "description": "A discord bot that sends messages that you want to pin in a dedicated channel to avoid the pinned-messages limit per text-channel",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "bot",
+      "dcbot"
+    ],
+    "languages": [
+      "js"
+    ],
+    "gh_api": "J-onasJones/PinBoardBot",
+    "version": "0.1",
+    "backgroud": "/pinboardbot.png",
+    "links": {
+      "GH": "J-onasJones/PinBoardBot",
+      "WB": "/projects/PinBoardBot"
+    },
+    "visible": true,
+    "last_update": 1662156000
+  },
+  {
+    "title": "Winception",
+    "description": "A 2D explorer game that let's you expierience past Operating System of the Windows and Linux family",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "game"
+    ],
+    "languages": [
+      "js",
+      "css",
+      "html"
+    ],
+    "gh_api": "J-onasJones/Winception",
+    "version": "0.1+alpha1",
+    "backgroud": "/winception.png",
+    "links": {
+      "GH": "J-onasJones/Winception",
+      "WB": "/projects/Winception"
+    },
+    "visible": false,
+    "last_update": 1661464800
+  },
+  {
+    "title": "Mystery Dungeons",
+    "description": "A mod that is part of the MysteryMod mod-family and focuses on Dungeons",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/MysteryDungeons",
+    "version": "0.1+alpha1",
+    "backgroud": "/mysterymod.png",
+    "links": {
+      "GH": "J-onasJones/MysteryDungeons",
+      "WB": "/projects/MysteryDungeons"
+    },
+    "visible": false,
+    "last_update": 1661464800
+  },
+  {
+    "title": "Mystery Dimensions",
+    "description": "A mod that is port of the MysteryMod mod-family with the focus of enhancing and adding Dimensions",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/MysteryDimensions",
+    "version": "0.1+alpha1",
+    "backgroud": "/mysterymod.png",
+    "links": {
+      "GH": "J-onasJones/MysteryDimensions",
+      "WB": "/projects/MysteryDimensions"
+    },
+    "visible": false,
+    "last_update": 1661464800
+  },
+  {
+    "title": "MysteryRPG",
+    "description": "An RPG related mod for the Mystery Mod mod-family. Adds content containing what the name implies.",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/MysteryRPG",
+    "version": "0.1+alpha1",
+    "backgroud": "/mysterymod.png",
+    "links": {
+      "GH": "J-onasJones/MysteryRPG",
+      "WB": "/projects/MysteryRPG.png"
+    },
+    "visible": false,
+    "last_update": 1658872800
+  },
+  {
+    "title": "SyncMod",
+    "description": "A mod that sync's your mods with the ones from the server of your choice.",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/SyncMod",
+    "version": "0.1+alpha1",
+    "backgroud": "/syncmod.png",
+    "links": {
+      "GH": "J-onasJones/SyncMod",
+      "WB": "/projects/SyncMod"
+    },
+    "visible": true,
+    "last_update": 1656194400
+  },
+  {
+    "title": "SpotifyMC",
+    "description": "Spotify Integration for Minecraft. Allows ingame control over music",
+    "status": "dev",
+    "statuscolor": "purple",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/SpotifyMC",
+    "version": "0.1+alpha1",
+    "backgroud": "/spotifymc.png",
+    "links": {
+      "GH": "J-onasJones/SpotifyMC",
+      "WB": "/projects/SpotifyMC"
+    },
+    "visible": true,
+    "last_update": 1651356000
+  },
+  {
+    "title": "SiMP Resourcepack",
+    "description": "The serverside resourcepack for SiMP",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "minecraft"
+    ],
+    "languages": [
+      ""
+    ],
+    "gh_api": "J-onasJones/simp-resourcepack",
+    "version": "1.0",
+    "backgroud": "/simp-rp.png",
+    "links": {
+      "GH": "J-onasJones/simp-resourcepack",
+      "WB": "/projects/simp-resourcepack"
+    },
+    "visible": true,
+    "last_update": 1643410800
+  },
+  {
+    "title": "Image Converter",
+    "description": "A Python based Image converter supporting a bunch of image formats.",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "tools",
+      "bazinga"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/ImageConverter",
+    "version": "1.2",
+    "backgroud": "/imageconverter.png",
+    "links": {
+      "GH": "J-onasJones/ImageConverter",
+      "WB": "/projects/ImageConverter"
+    },
+    "visible": true,
+    "last_update": 1642719600
+  },
+  {
+    "title": "J2 Technologies",
+    "description": "A lua based Whiteboard program inspired by i3-technologies",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "tools",
+      "bazinga"
+    ],
+    "languages": [
+      "lua"
+    ],
+    "gh_api": "J-onasJones/j2-technologies",
+    "version": "0.2.1+alpha1",
+    "backgroud": "/j2tech.png",
+    "links": {
+      "GH": "J-onasJones/j2-technologies",
+      "WB": "/projects/j2-technologies"
+    },
+    "visible": true,
+    "last_update": 1642201200
+  },
+  {
+    "title": "Make ZIP less compact",
+    "description": "With this program You will be able to make any zip archive less compact AND make it safe without the need of any encryption what soever",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "tools",
+      "bazinga"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/Make-ZIP-less-compact",
+    "version": "1.1",
+    "backgroud": "/mkzplsscmpct.png",
+    "links": {
+      "GH": "J-onasJones/Make-ZIP-less-compact",
+      "WB": "/projects/Make-ZIP-less-compect"
+    },
+    "visible": true,
+    "last_update": 1641250800
+  },
+  {
+    "title": "Resourcepack Editor",
+    "description": "A python based Editor for Minecraft Resourcepacks. It was designed to help with the structure of Resourcepacks when creating them",
+    "status": "discontinued",
+    "statuscolor": "gray",
+    "categories": [
+      "minecraft",
+      "tools",
+      "bazinga"
+    ],
+    "languages": [
+      "py"
+    ],
+    "gh_api": "J-onasJones/Resourcepack-Editor",
+    "version": "0.1+alpha1",
+    "backgroud": "/rp-editor.png",
+    "links": {
+      "GH": "J-onasJones/Resourcepack-Editor",
+      "WB": "/projects/Resourcepack-Editor"
+    },
+    "visible": true,
+    "last_update": 1642114800
+  },
+  {
+    "title": "Mystery Core Mod",
+    "description": "The core mod of all Mystery Mods",
+    "status": "planned",
+    "statuscolor": "yellow",
+    "categories": [
+      "minecraft",
+      "mcmodding",
+      "fabric",
+      "quilt"
+    ],
+    "languages": [
+      "java"
+    ],
+    "gh_api": "J-onasJones/Mystery-core-mod",
+    "version": "---",
+    "backgroud": "/mysterymod.png",
+    "links": {
+      "GH": "J-onasJones/Mystery-core-mod",
+      "WB": "/projects/Mystery-core-mod"
+    },
+    "visible": false,
+    "updated": 1641337200
+  }
+]

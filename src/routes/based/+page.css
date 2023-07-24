@@ -1,0 +1,29 @@
+html {
+    background-color: #141414;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+}
+
+.terminal_user__name__text {
+    color: #FF9D00;
+}
+
+.terminal_user__host__text {
+    color: #05CE91;
+}
+
+.terminal_user {
+    display: flex;
+}
+
+#terminal-input {
+    color: #fff;
+    background-color: #1D2A35;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Fira Code', monospace;
+    width: 100%;
+    /* debug */
+    border: 1px solid red;
+}
