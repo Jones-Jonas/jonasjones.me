@@ -49,7 +49,8 @@
   </div>
 
 </div>
-<TooSmallDimsOverlay />
+<div class="unsupported"><TooSmallDimsOverlay /></div>
+
 
 
 <script>
@@ -244,10 +245,6 @@
       flex-grow: 1;
     }
 
-    .lastfm {
-      display: none;
-    }
-
     .nav-links {
       margin-top: 5px;
       margin-bottom: 5px;
@@ -348,9 +345,21 @@
       z-index: 1;
     }
 
+    .unsupported {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    z-index: 9999;
+    }
+
     @media only screen and (max-width: 900px) and (min-width: 650px) {
       .lastfm #lastfm_title, .lastfm #lastfm_artist {
         display: none;
+      }
+      .lastfm {
+        width: 50px;
       }
       .navigation-menu {
         display: none;
@@ -376,6 +385,9 @@
       .lastfm #lastfm_title, .lastfm #lastfm_artist {
         display: none;
       }
+      .lastfm {
+        width: 50px;
+      }
       .nav-links {
         display: none;
       }
@@ -390,6 +402,9 @@
     @media only screen and (max-width: 300px) and (min-width: 0px) {
       .lastfm #lastfm_title, .lastfm #lastfm_artist {
         display: none;
+      }
+      .lastfm {
+        width: 50px;
       }
       .nav-links {
         display: none;
