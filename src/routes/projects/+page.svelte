@@ -7,7 +7,9 @@
 
   import projects from "./projects.json";
 
-  var searchResults = projects;
+  var searchResults = projects.filter(project => {
+    return project.visible === true;
+  })
 
   var searchtext = '';
   var searchcategory = '';
@@ -42,8 +44,8 @@
       var category = project.categories.join(' ').toLowerCase();
       var language = project.languages.join(' ').toLowerCase();
       var status = project.status.toLowerCase();
-      return text.includes(searchtext) && category.includes(searchcategory) && language.includes(searchlanguage) && status.includes(searchstatus);
-    });
+      return text.includes(searchtext) && category.includes(searchcategory) && language.includes(searchlanguage) && status.includes(searchstatus) && project.visible === true;
+    })
   }
 </script>
 
@@ -276,51 +278,51 @@
         </div>
         <div class="project-container">
           {#each searchResults as project}
-          <div class="project">
-              <!-- svelte-ignore a11y-missing-attribute -->
-              <h2 class="project-title">{project.title}<br class="smaller-screen"><br class="smaller-screen"><a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
-              <p class="project-description">{project.description}</p>
-              <div class="project-bg">
-                <img src="/project-banners/{project.backgroud}" alt=" " />
-              </div>
-              <Padding />
-              <Padding />
-              <div class="project-links">
-                <div>
-                  {#each Object.entries(project.links) as [platform, link]}
-                  <a
-                    class="project-link"
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                  {#if platform === "GH"}
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                  {:else if platform === "WB"}
-                  <i class="fa fa-globe" aria-hidden="true"></i>
-                  {:else if platform === "YT"}
-                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                  {:else if platform === "TW"}
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  {:else if platform === "DC"}
-                  <i class="fa fa-discord" aria-hidden="true"></i>
-                  {:else if platform === "PT"}
-                  <i class="fa fa-patreon" aria-hidden="true"></i>
-                  {:else if platform === "SP"}
-                  <i class="fa fa-spotify" aria-hidden="true"></i>
-                  {:else if platform === "IG"}
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  {:else}
-                  {platform}
-                  {/if}
-                  </a>
-                  {/each}
+            <div class="project">
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <h2 class="project-title">{project.title}<br class="smaller-screen"><br class="smaller-screen"><a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
+                <p class="project-description">{project.description}</p>
+                <div class="project-bg">
+                  <img src="/project-banners/{project.backgroud}" alt=" " />
                 </div>
+                <Padding />
+                <Padding />
+                <div class="project-links">
+                  <div>
+                    {#each Object.entries(project.links) as [platform, link]}
+                    <a
+                      class="project-link"
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    {#if platform === "GH"}
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    {:else if platform === "WB"}
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    {:else if platform === "YT"}
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    {:else if platform === "TW"}
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    {:else if platform === "DC"}
+                    <i class="fa fa-discord" aria-hidden="true"></i>
+                    {:else if platform === "PT"}
+                    <i class="fa fa-patreon" aria-hidden="true"></i>
+                    {:else if platform === "SP"}
+                    <i class="fa fa-spotify" aria-hidden="true"></i>
+                    {:else if platform === "IG"}
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    {:else}
+                    {platform}
+                    {/if}
+                    </a>
+                    {/each}
+                  </div>
+                </div>
+                <div>
+                  <a class="download-button" href="/projects/{project.title}">More Info</a>
               </div>
-              <div>
-                <a class="download-button" href="/projects/{project.title}">More Info</a>
             </div>
-          </div>
           {/each}
         </div>
       <Padding />
