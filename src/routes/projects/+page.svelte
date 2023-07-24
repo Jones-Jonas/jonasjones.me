@@ -246,6 +246,10 @@
               <option value="webdev">WebDev</option>
               <option value="website">Website</option>
             </optgroup>
+            <optgroup label="Other">
+              <option value="tools">Tool</option>
+              <option value="lib">Library</option>
+            </optgroup>
           </select>
           <i class="fa fa-globe" aria-hidden="true"></i>
           <select name="language" id="language" on:change={handleSearchLang}>
