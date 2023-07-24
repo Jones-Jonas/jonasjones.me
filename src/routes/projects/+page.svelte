@@ -1,7 +1,7 @@
 <script script lang="ts" async>
     import { select_option } from "svelte/internal";
     import FontAwesome from "../../components/FontAwesome.svelte";
-import Footer from "../../components/Footer.svelte";
+    import Footer from "../../components/Footer.svelte";
     import NavBar from "../../components/NavBar.svelte";
     import ParallaxBg from "../../components/ParallaxBg.svelte";
     import Padding from "../../components/padding.svelte";
