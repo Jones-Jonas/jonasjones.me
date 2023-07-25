@@ -1,2 +1,2 @@
-# alpha.jonasjones.dev
- alpha repo
+# jonasjones.dev
+ My website at https://jonasjones.dev
