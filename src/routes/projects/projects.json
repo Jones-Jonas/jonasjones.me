@@ -70,31 +70,6 @@
     "last_update": 1688940000
   },
   {
-    "title": "Alpha Website",
-    "description": "Alpha Website at https://alpha.jonasjones.dev",
-    "status": "discontinued",
-    "statuscolor": "gray",
-    "categories": [
-      "webdev",
-      "website"
-    ],
-    "languages": [
-      "svelte",
-      "css",
-      "js",
-      "html"
-    ],
-    "gh_api": "J-onasJones/alpha.jonasjones.dev",
-    "version": "---",
-    "backgroud": "/alpha-homepage.png",
-    "links": {
-      "GH": "J-onasJones/alpha.jonasjones.dev",
-      "WB": "/projects/alpha.jonasjones.dev"
-    },
-    "visible": true,
-    "last_update": 1688853600
-  },
-  {
     "title": "Microcraft",
     "description": "A Minecraft mod that allows for Microcontroller and Singleboard computer control",
     "status": "dev",
