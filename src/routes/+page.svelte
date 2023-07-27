@@ -23,11 +23,7 @@
       <a href="https://github.com/J-onasJones"><i class="fab fa-github"></i></a>
       <a href="https://www.youtube.com/channel/UCVIxvKBIMSMgurYS8pK7fSg"><i class="fab fa-youtube"></i></a>
       <a href="https://discord.gg/V2EsuUVmWh"><i class="fab fa-discord"></i></a>
-    </div>
-    <div class="row">
-      <a href="https://www.reddit.com/u/Jonas_Jones_"><i class="fab fa-reddit"></i></a>
-      <a href="https://twitter.com/Jonas_Jones_"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/_jonas_jones_"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:me@jonasjones.dev"><i class="fas fa-envelope"></i></a>
     </div>
   </div>
 </ParallaxBg>
