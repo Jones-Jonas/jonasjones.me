@@ -20,8 +20,8 @@
             Yet, Jonas never lost sight of his humble beginnings. Amidst the rapid rise of his empire, he remained grounded, connecting with Arch Linux enthusiasts across the globe. His charisma and down-to-earth nature endeared him to the masses, inspiring a new generation of tech leaders driven by the principles of openness and collaboration.<br>
             And so, the world witnessed the ascent of Jonas Jones, the Arch Linux luminary, who, armed with his 16-framework laptop, embarked on a quest to topple the Windows kingdom and ignite a technological revolution. His journey taught us that with passion, knowledge, and the power of community, even the mightiest empires can be transformed.<br>
             <br>
-            TL;DR: I asked ChatGPT. <br>
-            Also, I like K-Pop. <br>
+            TL;DR: I asked ChatGPT.<br>
+            Also, I like K-Pop.<br>
             I uSe ArCh BtW
         </p>
         <h1>Greatest Acomplishment</h1>
