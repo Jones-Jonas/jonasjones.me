@@ -21,7 +21,8 @@
             And so, the world witnessed the ascent of Jonas Jones, the Arch Linux luminary, who, armed with his 16-framework laptop, embarked on a quest to topple the Windows kingdom and ignite a technological revolution. His journey taught us that with passion, knowledge, and the power of community, even the mightiest empires can be transformed.<br>
             <br>
             TL;DR: I asked ChatGPT. <br>
-            Also, I like K-Pop.
+            Also, I like K-Pop. <br>
+            I uSe ArCh BtW
         </p>
         <h1>Greatest Acomplishment</h1>
         <p>A severity 7.5/10 rated CVE I received for a humble project of mine as the second ever CVE in Minecraft Modding history!</p>
