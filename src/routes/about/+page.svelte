@@ -22,7 +22,7 @@
             <br>
             TL;DR: I asked ChatGPT.<br>
             Also, I like K-Pop.<br>
-            I uSe ArCh BtW
+            I uSe ArCh BtW.
         </p>
         <h1>Greatest Acomplishment</h1>
         <p>A severity 7.5/10 rated CVE I received for a humble project of mine as the second ever CVE in Minecraft Modding history!</p>
