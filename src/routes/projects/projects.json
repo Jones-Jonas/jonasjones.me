@@ -60,7 +60,7 @@
       "py"
     ],
     "gh_api": "J-onasJones/Minecraft-server-Status",
-    "version": "1.0",
+    "version": "1.2",
     "backgroud": "/mcserverstatus.png",
     "links": {
       "GH": "https://github.com/J-onasJones/Minecraft-server-Status",
