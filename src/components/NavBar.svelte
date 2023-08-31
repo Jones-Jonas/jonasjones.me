@@ -63,8 +63,9 @@
   let navLinks = [
     { name: 'Home', url: '/' },
     { name: 'Projects', url: '/projects'},
-    { name: 'For The Based™', url: '/based'},
-    { name: 'Status', url: '/status'},
+    // just removed this cause it bothered me
+    //{ name: 'For The Based™', url: '/based'},
+    //{ name: 'Status', url: '/status'},
     { name: 'About', url: '/about' }
   ];
 
