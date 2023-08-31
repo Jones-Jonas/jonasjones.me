@@ -7,7 +7,7 @@
 
 <ParallaxBg>
     <NavBar />
-    <title>404</title>
+    <title>gotcha.</title>
     <div class="container">
         <Padding />
         <h1>gotcha.</h1>
