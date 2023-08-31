@@ -108,7 +108,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/NotEnoughCursedness",
-    "version": "0,2",
+    "version": "0.2",
     "backgroud": "/notenoughcursedness.png",
     "links": {
       "GH": "https://github.com/J-onasJones/NotEnoughCursedness",
@@ -299,7 +299,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/McWebserver-forge",
-    "version": "0,2",
+    "version": "0.2",
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver-forge",
@@ -647,7 +647,7 @@
       "GH": "https://github.com/J-onasJones/SyncMod",
       "WB": "/projects/SyncMod"
     },
-    "visible": true,
+    "visible": false,
     "last_update": 1656194400
   },
   {
@@ -671,7 +671,7 @@
       "GH": "https://github.com/J-onasJones/SpotifyMC",
       "WB": "/projects/SpotifyMC"
     },
-    "visible": true,
+    "visible": false,
     "last_update": 1651356000
   },
   {
