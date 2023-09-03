@@ -288,7 +288,7 @@
                 <h2 class="project-title">{project.title}<br class="smaller-screen"><br class="smaller-screen"><a class="project-status" style="color: {project.statuscolor};border-color:{project.statuscolor}">{project.status}</a><a class="project-version">{project.version}</a></h2>
                 <p class="project-description">{project.description}</p>
                 <div class="project-bg">
-                  <img src="/project-banners/{project.backgroud}" alt=" " />
+                  <img src="https://cdn.jonasjones.dev/project-banners{project.backgroud}" alt=" " />
                 </div>
                 <Padding />
                 <Padding />
