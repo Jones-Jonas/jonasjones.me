@@ -206,7 +206,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/McWebserver",
-    "version": "0.2",
+    "version": "0.2.1",
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver",
