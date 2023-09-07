@@ -45,7 +45,7 @@
       "MR": ""
     },
     "visible": true,
-    "last_update": 1693498044
+    "last_update": 1693738759
   },
   {
     "title": "Minecraft Server Status",
@@ -116,7 +116,7 @@
       "MR": "https://modrinth.com/mod/not-enough-cursedness"
     },
     "visible": true,
-    "last_update": 1693578304
+    "last_update": 1693596519
   },
   {
     "title": "DayZ Linux GUI Launcher",
@@ -206,14 +206,14 @@
       "java"
     ],
     "gh_api": "J-onasJones/McWebserver",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver",
       "WB": "/projects/McWebserver"
     },
     "visible": true,
-    "last_update": 1682021172
+    "last_update": 1694033787
   },
   {
     "title": "MysteryMod",
