@@ -16,22 +16,22 @@
   var searchlanguage = "";
   var searchstatus = "";
 
-  function handleSearchText(event: { target: { value: string; }; }) {
+  function handleSearchText(event) {
     searchtext = event.target.value.toLowerCase();
     handleSearch();
   }
 
-  function handleSearchCategory(event: { target: { value: string; }; }) {
+  function handleSearchCategory(event) {
     searchcategory = event.target.value.toLowerCase();
     handleSearch();
   }
 
-  function handleSearchLang(event: { target: { value: string; }; }) {
+  function handleSearchLang(event) {
     searchlanguage = event.target.value.toLowerCase();
     handleSearch();
   }
 
-  function handleSearchStatus(event: { target: { value: string; }; }) {
+  function handleSearchStatus(event) {
     searchstatus = event.target.value.toLowerCase();
     handleSearch();
   }
