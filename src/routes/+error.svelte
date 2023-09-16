@@ -11,13 +11,13 @@
     }
 
     function toggleTaeyong() {
-        const taeyong = document.querySelector('.taeyong');
-        taeyong.style.display = 'block';
+        const taeyong = document.querySelector(".taeyong");
+        taeyong.style.display = "block";
     }
 
     function toggleTaeyongoff() {
-        const taeyong = document.querySelector('.taeyong');
-        taeyong.style.display = 'none';
+        const taeyong = document.querySelector(".taeyong");
+        taeyong.style.display = "none";
     }
 </script>
 
@@ -34,7 +34,7 @@
         <div style="height:300px;width:600px">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <img
-                src={isGif1 ? '/johnrefs1.gif' : '/johnrefs2.gif'}
+                src={isGif1 ? "/johnrefs1.gif" : "/johnrefs2.gif"}
                 alt="Toggle GIF"
                 on:click={toggleGif}
             />
@@ -44,7 +44,13 @@
 </ParallaxBg>
 <div class="taeyong">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <img src="/taeyong.gif" alt="taeyong" on:click={toggleTaeyongoff} height="100%" width="100%" />
+    <img
+        src="/taeyong.gif"
+        alt="taeyong"
+        on:click={toggleTaeyongoff}
+        height="100%"
+        width="100%"
+    />
 </div>
 
 <style>

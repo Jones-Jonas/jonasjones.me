@@ -11,7 +11,11 @@
     <div class="container">
         <Padding />
         <h1>This is not acceptable. You must be a robot</h1>
-        <h1>Please visit <a href="https://jonasjones.dev/I-am-a-robot">https://jonasjones.dev/I-am-a-robot</a></h1>
+        <h1>
+            Please visit <a href="https://jonasjones.dev/I-am-a-robot"
+                >https://jonasjones.dev/I-am-a-robot</a
+            >
+        </h1>
     </div>
     <Footer />
 </ParallaxBg>

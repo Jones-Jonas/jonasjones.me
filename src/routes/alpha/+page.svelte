@@ -11,7 +11,10 @@
     <div class="container">
         <Padding />
         <h1>There currently is no Alpha.</h1>
-        <p>Can't believe I actually managed to release this website in under a year.</p>
+        <p>
+            Can't believe I actually managed to release this website in under a
+            year.
+        </p>
         <p>Go to <a href="/">Home</a></p>
     </div>
     <Footer />

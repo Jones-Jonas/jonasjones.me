@@ -1,3 +1,12 @@
+<div class="overlay">
+  <div class="notice">
+    <p>
+      Your screen resolution isn't supported by this website. if You're on a
+      computer, try zooming out or resizing the window.
+    </p>
+  </div>
+</div>
+
 <style>
   .overlay {
     position: fixed;
@@ -25,10 +34,3 @@
     text-align: center;
   }
 </style>
-
-<div class="overlay">
-  <div class="notice">
-  <p>Your screen resolution isn't supported by this website. if You're on a computer, try zooming out or resizing the window.</p>
-  </div>
-</div>
-  
