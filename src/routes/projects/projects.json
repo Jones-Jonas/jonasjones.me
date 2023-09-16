@@ -22,6 +22,50 @@
     "last_update": ""
   },
   {
+    "title": "Markdown Compiler",
+    "description": "A cheap compiler to turn markdown into html/svelte",
+    "status": "beta",
+    "statuscolor": "orange",
+    "categories": [
+      "tools"
+    ],
+    "languages": [
+      "python"
+    ],
+    "gh_api": "J-onasJones/Markdown-Compiler",
+    "version": "0.1",
+    "backgroud": "/j2tech.png",
+    "links": {
+      "GH": "https://github.com/Markdown-Compiler",
+      "WB": "/projects/Markdown-Compiler"
+    },
+    "visible": "",
+    "last_update": 1694470894
+  },
+  {
+    "title": "Svelte Markdown Wiki",
+    "description": "A Template of a Wiki for Pages written in Markdown in SvelteKit",
+    "status": "release",
+    "statuscolor": "green",
+    "categories": [
+      "webdev",
+      "template"
+    ],
+    "languages": [
+      "svelte",
+      "markdown"
+    ],
+    "gh_api": "J-onasJones/SvelteMarkdownWiki",
+    "version": "1.0",
+    "backgroud": "/homepage.png",
+    "links": {
+      "GH": "https://github.com/J-onasJones/SvelteMarkdownWiki",
+      "WB": "/projects/SvelteMarkdownWiki"
+    },
+    "visible": true,
+    "last_update": 1694470894
+  },
+  {
     "title": "Website",
     "description": "My website at https://jonasjones.dev",
     "status": "release",
@@ -45,7 +89,7 @@
       "MR": ""
     },
     "visible": true,
-    "last_update": 1693738759
+    "last_update": 1694470894
   },
   {
     "title": "Minecraft Server Status",
@@ -164,7 +208,7 @@
       "MR": "https://modrinth.com/mod/consolemc"
     },
     "visible": true,
-    "last_update": 1693577984
+    "last_update": 1694104675
   },
   {
     "title": "Better ConsoleMC",
@@ -189,7 +233,7 @@
       "MR": "https://modrinth.com/mod/betterconsolemc"
     },
     "visible": true,
-    "last_update": 1682021696
+    "last_update": 1694500197
   },
   {
     "title": "MC Webserver",
@@ -213,7 +257,7 @@
       "WB": "/projects/McWebserver"
     },
     "visible": true,
-    "last_update": 1694033787
+    "last_update": 1694095531
   },
   {
     "title": "MysteryMod",
@@ -283,7 +327,7 @@
       "WB": "https://old.jonasjones.dev"
     },
     "visible": true,
-    "last_update": 1675278057
+    "last_update": 1694470228
   },
   {
     "title": "MC Webserver Forge",
