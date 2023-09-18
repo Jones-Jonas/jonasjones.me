@@ -26,8 +26,8 @@
    * @param {string} str
    */
   function truncateString(str) {
-    if (str.length > 30) {
-      return str.slice(0, 30) + "...";
+    if (str.length > 29) {
+      return str.slice(0, 29) + "...";
     } else {
       return str;
     }
@@ -335,6 +335,15 @@
     opacity: 0.5;
     align-self: center;
   }
+  .lastfm-text {
+    display: none;
+    transition: width 0.3s ease-out;
+  }
+
+  .lastfm:hover .lastfm-text {
+    display:block
+  }
+
   .link {
     position: absolute;
     width: 100%;
