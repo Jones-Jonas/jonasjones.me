@@ -79,13 +79,13 @@
       "html"
     ],
     "gh_api": "J-onasJones/jonasjones.dev",
-    "version": "69",
+    "version": "1.0.1",
     "backgroud": "/homepage.png",
     "links": {
       "GH": "https://github.com/J-onasJones/jonasjones.dev"
     },
     "visible": true,
-    "last_update": 1695734251
+    "last_update": 1695761652
   },
   {
     "title": "Minecraft Server Status",
@@ -240,7 +240,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/McWebserver",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver"
