@@ -63,7 +63,7 @@
       "WB": "/projects/SvelteMarkdownWiki"
     },
     "visible": true,
-    "last_update": 1694762019
+    "last_update": 1695042172
   },
   {
     "title": "Website",
@@ -89,7 +89,7 @@
       "MR": ""
     },
     "visible": true,
-    "last_update": 1694863948
+    "last_update": 1695734251
   },
   {
     "title": "Minecraft Server Status",
@@ -160,7 +160,7 @@
       "MR": "https://modrinth.com/mod/not-enough-cursedness"
     },
     "visible": true,
-    "last_update": 1693596519
+    "last_update": 1695317123
   },
   {
     "title": "DayZ Linux GUI Launcher",
@@ -200,7 +200,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/ConsoleMC",
-    "version": "0.1.0.1",
+    "version": "0.1.1",
     "backgroud": "/consolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/ConsoleMC",
@@ -208,7 +208,7 @@
       "MR": "https://modrinth.com/mod/consolemc"
     },
     "visible": true,
-    "last_update": 1694104675
+    "last_update": 1695316595
   },
   {
     "title": "Better ConsoleMC",
@@ -225,7 +225,7 @@
       "java"
     ],
     "gh_api": "J-onasJones/BetterConsoleMC",
-    "version": "0.0.1+alpha1",
+    "version": "1.0.0",
     "backgroud": "/betterconsolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/BetterConsoleMC",
@@ -233,7 +233,7 @@
       "MR": "https://modrinth.com/mod/betterconsolemc"
     },
     "visible": true,
-    "last_update": 1694500197
+    "last_update": 1695758182
   },
   {
     "title": "MC Webserver",
@@ -250,14 +250,14 @@
       "java"
     ],
     "gh_api": "J-onasJones/McWebserver",
-    "version": "0.3.1",
+    "version": "0.3.0",
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver",
       "WB": "/projects/McWebserver"
     },
     "visible": true,
-    "last_update": 1694095531
+    "last_update": 1695459555
   },
   {
     "title": "MysteryMod",
@@ -752,7 +752,7 @@
       "py"
     ],
     "gh_api": "J-onasJones/ImageConverter",
-    "version": "1.2",
+    "version": "ImageConerter-1.2",
     "backgroud": "/imageconverter.png",
     "links": {
       "GH": "https://github.com/J-onasJones/ImageConverter",
@@ -774,7 +774,7 @@
       "lua"
     ],
     "gh_api": "J-onasJones/j2-technologies",
-    "version": "0.2.1+alpha1",
+    "version": "0.2.1ALPHA",
     "backgroud": "/j2tech.png",
     "links": {
       "GH": "https://github.com/J-onasJones/j2-technologies",
