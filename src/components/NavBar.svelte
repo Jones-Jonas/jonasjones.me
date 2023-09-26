@@ -26,8 +26,9 @@
    * @param {string} str
    */
   function truncateString(str) {
-    if (str.length > 29) {
-      return str.slice(0, 29) + "...";
+    const max_length = 27;
+    if (str.length > max_length) {
+      return str.slice(0, max_length) + "...";
     } else {
       return str;
     }
