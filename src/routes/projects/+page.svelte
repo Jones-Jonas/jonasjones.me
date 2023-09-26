@@ -174,7 +174,7 @@
             </div>
           </div>
           <div>
-            <a class="download-button" href="/projects/{project.title}"
+            <a class="download-button" href="{project.links.GH}"
               >More Info</a
             >
           </div>

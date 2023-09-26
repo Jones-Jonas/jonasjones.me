@@ -36,8 +36,7 @@
     "version": "0.1",
     "backgroud": "/j2tech.png",
     "links": {
-      "GH": "https://github.com/Markdown-Compiler",
-      "WB": "/projects/Markdown-Compiler"
+      "GH": "https://github.com/J-onasJones/Markdown-Compiler"
     },
     "visible": true,
     "last_update": 1694793692
@@ -59,8 +58,7 @@
     "version": "1.0",
     "backgroud": "/homepage.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/SvelteMarkdownWiki",
-      "WB": "/projects/SvelteMarkdownWiki"
+      "GH": "https://github.com/J-onasJones/SvelteMarkdownWiki"
     },
     "visible": true,
     "last_update": 1695042172
@@ -84,9 +82,7 @@
     "version": "69",
     "backgroud": "/homepage.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/jonasjones.dev",
-      "WB": "/",
-      "MR": ""
+      "GH": "https://github.com/J-onasJones/jonasjones.dev"
     },
     "visible": true,
     "last_update": 1695734251
@@ -107,8 +103,7 @@
     "version": "1.3",
     "backgroud": "/mcserverstatus.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Minecraft-server-Status",
-      "WB": "/projects/Minecraft-server-Status"
+      "GH": "https://github.com/J-onasJones/Minecraft-server-Status"
     },
     "visible": true,
     "last_update": 1693493323
@@ -131,8 +126,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/microcraft.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Microcraft",
-      "WB": "/projects/Microcraft"
+      "GH": "https://github.com/J-onasJones/Microcraft"
     },
     "visible": true,
     "last_update": 1687716436
@@ -156,7 +150,6 @@
     "backgroud": "/notenoughcursedness.png",
     "links": {
       "GH": "https://github.com/J-onasJones/NotEnoughCursedness",
-      "WB": "/projects/NotEnoughCursedness",
       "MR": "https://modrinth.com/mod/not-enough-cursedness"
     },
     "visible": true,
@@ -179,8 +172,7 @@
     "version": "0.1.0",
     "backgroud": "/dayzlauncher.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/dayz-linux-gui-launcher",
-      "WB": "/projects/dayz-linux-gui-launcher"
+      "GH": "https://github.com/J-onasJones/dayz-linux-gui-launcher"
     },
     "visible": true,
     "last_update": 1682450521
@@ -204,7 +196,6 @@
     "backgroud": "/consolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/ConsoleMC",
-      "WB": "/projects/ConsoleMC",
       "MR": "https://modrinth.com/mod/consolemc"
     },
     "visible": true,
@@ -229,7 +220,6 @@
     "backgroud": "/betterconsolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/BetterConsoleMC",
-      "WB": "/projects/BetterConsoleMC",
       "MR": "https://modrinth.com/mod/betterconsolemc"
     },
     "visible": true,
@@ -253,8 +243,7 @@
     "version": "0.3.0",
     "backgroud": "/mcwebserver.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/McWebserver",
-      "WB": "/projects/McWebserver"
+      "GH": "https://github.com/J-onasJones/McWebserver"
     },
     "visible": true,
     "last_update": 1695459555
@@ -277,8 +266,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/MysteryMod",
-      "WB": "/projects/MysteryMod"
+      "GH": "https://github.com/J-onasJones/MysteryMod"
     },
     "visible": true,
     "last_update": 1682021093
@@ -299,8 +287,7 @@
     "version": "---",
     "backgroud": "/jjapi.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/jonas_jones-api",
-      "WB": "/projects/jonas_jones-api"
+      "GH": "https://github.com/J-onasJones/jonas_jones-api"
     },
     "visible": false,
     "last_update": 1677884400
@@ -323,8 +310,7 @@
     "version": "1.0",
     "backgroud": "/oldwebsite.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Website-v1",
-      "WB": "https://old.jonasjones.dev"
+      "GH": "https://github.com/J-onasJones/Website-v1"
     },
     "visible": true,
     "last_update": 1694470228
@@ -347,7 +333,6 @@
     "backgroud": "/mcwebserver.png",
     "links": {
       "GH": "https://github.com/J-onasJones/McWebserver-forge",
-      "WB": "/projects/McWebserver-forge",
       "MR": "https://modrinth.com/mod/mcwebserver",
       "CF": "https://www.curseforge.com/minecraft/mc-mods/mcwebserver"
     },
@@ -370,8 +355,7 @@
     "version": "0.1.2",
     "backgroud": "/bloatremover.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/WindowsBloatwareRemover",
-      "WB": "/projects/WindowsBloatwareRemover"
+      "GH": "https://github.com/J-onasJones/WindowsBloatwareRemover"
     },
     "visible": true,
     "last_update": 1661781655
@@ -391,8 +375,7 @@
     "version": "---",
     "backgroud": "/winoverlay.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/windows-info-overlay",
-      "WB": "/projects/windows-info-overlay"
+      "GH": "https://github.com/J-onasJones/windows-info-overlay"
     },
     "visible": false,
     "last_update": 1673737200
@@ -417,8 +400,7 @@
     "version": "1.0",
     "backgroud": "/bettersimpleconfig.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/BetterSimpleConfig",
-      "WB": "/projects/BetterSimpleConfig"
+      "GH": "https://github.com/J-onasJones/BetterSimpleConfig"
     },
     "visible": true,
     "last_update": 1670967961
@@ -439,8 +421,7 @@
     "version": "---",
     "backgroud": "/qrgen.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Qr-generator",
-      "WB": "/projects/Qr-generator"
+      "GH": "https://github.com/J-onasJones/Qr-generator"
     },
     "visible": false,
     "last_update": 1669935600
@@ -460,8 +441,7 @@
     "version": "---",
     "backgroud": "/pyterm2d.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/pyterm2d",
-      "WB": "/projects/pyterm2d"
+      "GH": "https://github.com/J-onasJones/pyterm2d"
     },
     "visible": false,
     "last_update": 1668034800
@@ -481,8 +461,7 @@
     "version": "---",
     "backgroud": "/bobbycargame.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/TheBobbycarGame",
-      "WB": "/projects/TheBobbyCarGame"
+      "GH": "https://github.com/J-onasJones/TheBobbycarGame"
     },
     "visible": false,
     "last_update": 1666562400
@@ -503,8 +482,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/moddah.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/moddah",
-      "WB": "/projects/moddah"
+      "GH": "https://github.com/J-onasJones/moddah"
     },
     "visible": true,
     "last_update": 1666039028
@@ -524,8 +502,7 @@
     "version": "2.0.1",
     "backgroud": "/bashcmdaliaseditor.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/BashCommandAliasEditor",
-      "WB": "/projects/BashCommandAliasEditor"
+      "GH": "https://github.com/J-onasJones/BashCommandAliasEditor"
     },
     "visible": true,
     "last_update": 1663678509
@@ -547,8 +524,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/pi-server-rack.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/PI-server-rack",
-      "WB": "/projects/PI-server-rack"
+      "GH": "https://github.com/J-onasJones/PI-server-rack"
     },
     "visible": true,
     "last_update": 1662319681
@@ -569,8 +545,7 @@
     "version": "0.1",
     "backgroud": "/pinboardbot.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/PinBoardBot",
-      "WB": "/projects/PinBoardBot"
+      "GH": "https://github.com/J-onasJones/PinBoardBot"
     },
     "visible": true,
     "last_update": 1662197814
@@ -592,8 +567,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/winception.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Winception",
-      "WB": "/projects/Winception"
+      "GH": "https://github.com/J-onasJones/Winception"
     },
     "visible": false,
     "last_update": 1661464800
@@ -616,8 +590,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/MysteryDungeons",
-      "WB": "/projects/MysteryDungeons"
+      "GH": "https://github.com/J-onasJones/MysteryDungeons"
     },
     "visible": false,
     "last_update": 1661464800
@@ -640,8 +613,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/MysteryDimensions",
-      "WB": "/projects/MysteryDimensions"
+      "GH": "https://github.com/J-onasJones/MysteryDimensions"
     },
     "visible": false,
     "last_update": 1661464800
@@ -664,8 +636,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/MysteryRPG",
-      "WB": "/projects/MysteryRPG.png"
+      "GH": "https://github.com/J-onasJones/MysteryRPG"
     },
     "visible": false,
     "last_update": 1658872800
@@ -688,8 +659,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/syncmod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/SyncMod",
-      "WB": "/projects/SyncMod"
+      "GH": "https://github.com/J-onasJones/SyncMod"
     },
     "visible": false,
     "last_update": 1658851640
@@ -712,8 +682,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/spotifymc.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/SpotifyMC",
-      "WB": "/projects/SpotifyMC"
+      "GH": "https://github.com/J-onasJones/SpotifyMC"
     },
     "visible": false,
     "last_update": 1651432501
@@ -733,8 +702,7 @@
     "version": "1.0",
     "backgroud": "/simp-rp.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/simp-resourcepack",
-      "WB": "/projects/simp-resourcepack"
+      "GH": "https://github.com/J-onasJones/simp-resourcepack"
     },
     "visible": true,
     "last_update": 1643477940
@@ -755,8 +723,7 @@
     "version": "ImageConerter-1.2",
     "backgroud": "/imageconverter.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/ImageConverter",
-      "WB": "/projects/ImageConverter"
+      "GH": "https://github.com/J-onasJones/ImageConverter"
     },
     "visible": true,
     "last_update": 1642718415
@@ -777,8 +744,7 @@
     "version": "0.2.1ALPHA",
     "backgroud": "/j2tech.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/j2-technologies",
-      "WB": "/projects/j2-technologies"
+      "GH": "https://github.com/J-onasJones/j2-technologies"
     },
     "visible": true,
     "last_update": 1642248415
@@ -799,8 +765,7 @@
     "version": "1.1",
     "backgroud": "/mkzplsscmpct.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Make-ZIP-less-compact",
-      "WB": "/projects/Make-ZIP-less-compect"
+      "GH": "https://github.com/J-onasJones/Make-ZIP-less-compact"
     },
     "visible": true,
     "last_update": 1641250800
@@ -822,8 +787,7 @@
     "version": "0.1+alpha1",
     "backgroud": "/rp-editor.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Resourcepack-Editor",
-      "WB": "/projects/Resourcepack-Editor"
+      "GH": "https://github.com/J-onasJones/Resourcepack-Editor"
     },
     "visible": true,
     "last_update": 1642114800
@@ -846,8 +810,7 @@
     "version": "---",
     "backgroud": "/mysterymod.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Mystery-core-mod",
-      "WB": "/projects/Mystery-core-mod"
+      "GH": "https://github.com/J-onasJones/Mystery-core-mod"
     },
     "visible": false,
     "updated": 1641337200
