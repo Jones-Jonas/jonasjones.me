@@ -60,6 +60,9 @@
             Also, I like K-Pop.<br />
             I uSe ArCh BtW.
         </p>
+        <h1>Useful Links</h1>
+        <a href="https://builds.jonasjones.dev">Old Builds</a><br />
+        <a href="https://wiki.jonasjones.dev">Wiki</a><br />
         <h1>Greatest Acomplishment</h1>
         <p>
             A severity 7.5/10 rated CVE I received for a humble project of mine
