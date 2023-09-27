@@ -146,7 +146,7 @@
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #fff;
+    background-color: var(--header-font-color);
     border-radius: 4px;
     transition: transform 0.3s, opacity 0.3s;
   }
@@ -178,7 +178,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--nav-menu-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,7 +199,7 @@
     top: 1px;
     left: 1px;
     font-size: 24px;
-    color: #fff;
+    color: var(--header-font-color);
     cursor: pointer;
   }
 
@@ -216,13 +216,13 @@
   }
 
   .links a {
-    color: #fff;
+    color: var(--header-font-color);
     text-decoration: none;
     font-size: 18px;
   }
 
   .navbar {
-    background-color: #2023247c;
+    background-color: var(--header-background-color);
     padding: 10px;
     padding-top: 0;
     padding-bottom: 0;
@@ -271,13 +271,13 @@
 
   a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--header-font-color);
     padding: 5px;
     font-size: 23px;
   }
 
   a:hover {
-    color: #ddd;
+    color: var(--header-font-color-hover);
   }
 
   .lastfm {
@@ -299,7 +299,7 @@
     overflow: hidden;
   }
   .lastfm:hover {
-    background-color: #202324;
+    background-color: var(--header-background-color-hover);
   }
   .lastfm img {
     width: 30px;
@@ -366,10 +366,6 @@
   }
 
   @media only screen and (max-width: 900px) and (min-width: 650px) {
-    .lastfm #lastfm_title,
-    .lastfm #lastfm_artist {
-      display: none;
-    }
     .lastfm {
       width: 50px;
     }
@@ -379,6 +375,9 @@
   }
 
   @media only screen and (max-width: 650px) and (min-width: 375px) {
+    .lastfm-text {
+      display: block;
+    }
     .nav-links {
       display: none;
     }
@@ -395,10 +394,6 @@
   }
 
   @media only screen and (max-width: 375px) and (min-width: 300px) {
-    .lastfm #lastfm_title,
-    .lastfm #lastfm_artist {
-      display: none;
-    }
     .lastfm {
       width: 50px;
     }
@@ -414,10 +409,6 @@
   }
 
   @media only screen and (max-width: 300px) and (min-width: 0px) {
-    .lastfm #lastfm_title,
-    .lastfm #lastfm_artist {
-      display: none;
-    }
     .lastfm {
       width: 50px;
     }
