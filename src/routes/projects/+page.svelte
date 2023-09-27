@@ -137,7 +137,7 @@
           <p class="project-description">{project.description}</p>
           <div class="project-bg">
             <img
-              src="https://cdn.jonasjones.dev/project-banners{project.backgroud}"
+              src="/project-banners{project.backgroud}"
               alt=" "
             />
           </div>
