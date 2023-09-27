@@ -721,13 +721,13 @@
       "html"
     ],
     "gh_api": "J-onasJones/jonasjones.dev",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "backgroud": "/homepage.png",
     "links": {
       "GH": "https://github.com/J-onasJones/jonasjones.dev"
     },
     "visible": true,
-    "last_update": 1695761856
+    "last_update": 1695808613
   },
   {
     "title": "Website V1",
