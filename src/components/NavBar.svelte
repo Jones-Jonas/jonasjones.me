@@ -35,41 +35,43 @@
   }
 
   async function fetchLastFmData() {
-    let response = await fetch(fetch_url);
-    let data = await response.json();
-    let album_cover = data.recenttracks.track[0].image[1]["#text"];
-    let song_title = truncateString(data.recenttracks.track[0].name);
-    //let song_title = truncateString("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw");
-    let artist = truncateString(data.recenttracks.track[0].artist["#text"]);
-
     try {
-      // @ts-ignore
-      document.getElementById("lastfm_title").innerHTML = song_title;
-      // @ts-ignore
-      document.getElementById("lastfm_artist").innerHTML = artist;
-      // @ts-ignore
-      document.getElementById(
-        "lastfm_logo"
-      ).style.backgroundImage = `url(${album_cover})`;
-    } catch (error) {}
+      let response = await fetch(fetch_url);
+      let data = await response.json();
+      let album_cover = data.recenttracks.track[0].image[1]["#text"];
+      let song_title = truncateString(data.recenttracks.track[0].name);
+      //let song_title = truncateString("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw");
+      let artist = truncateString(data.recenttracks.track[0].artist["#text"]);
 
-    try {
-      let is_playing = data.recenttracks.track[0]["@attr"].nowplaying;
-      if (is_playing == "true") {
-        // @ts-ignore
-        document.getElementById("lastfm_logo_overlay").src = "/equalizer.gif";
-      } else {
-        // @ts-ignore
-        document.getElementById("lastfm_logo_overlay").src =
-          "/pause-icon-256.png";
-      }
-    } catch (error) {
       try {
         // @ts-ignore
-        document.getElementById("lastfm_logo_overlay").src =
-          "/pause-icon-256.png";
+        document.getElementById("lastfm_title").innerHTML = song_title;
+        // @ts-ignore
+        document.getElementById("lastfm_artist").innerHTML = artist;
+        // @ts-ignore
+        document.getElementById(
+          "lastfm_logo"
+        ).style.backgroundImage = `url(${album_cover})`;
       } catch (error) {}
-    }
+
+      try {
+        let is_playing = data.recenttracks.track[0]["@attr"].nowplaying;
+        if (is_playing == "true") {
+          // @ts-ignore
+          document.getElementById("lastfm_logo_overlay").src = "/equalizer.gif";
+        } else {
+          // @ts-ignore
+          document.getElementById("lastfm_logo_overlay").src =
+            "/pause-icon-256.png";
+        }
+      } catch (error) {
+        try {
+          // @ts-ignore
+          document.getElementById("lastfm_logo_overlay").src =
+            "/pause-icon-256.png";
+        } catch (error) {}
+      }
+    } catch (error) {}
   }
   fetchLastFmData();
   setInterval(fetchLastFmData, 15000);
