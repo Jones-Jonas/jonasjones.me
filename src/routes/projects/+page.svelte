@@ -6,6 +6,8 @@
   import Padding from "../../components/padding.svelte";
 
   import projects from "./projects.json";
+  
+  import "../../routes/+page.css";
 
   var searchResults = projects.filter((project) => {
     return project.visible === true;
@@ -209,6 +211,7 @@
     overflow: hidden;
     cursor: pointer;
     padding-bottom: 50px;
+    border: 2px solid var(--project-border-color);
   }
 
   .project-bg {
@@ -219,7 +222,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: black;
+    background-color: var(--project-background-color);
   }
 
   .project-bg img {
@@ -291,13 +294,13 @@
   .project-link {
     display: inline-block;
     margin-left: 10px;
-    color: #333;
+    color: var(--project-link-color);
     text-decoration: none;
     transition: color 0.3s;
   }
 
   .project-link:hover {
-    color: #666;
+    color: var(--project-link-color-hover);
   }
 
   .download-button {
@@ -318,7 +321,7 @@
 
   .search-bar {
     margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: var(--project-search-background-color);
     padding: 10px;
     border-radius: 5px;
   }
@@ -327,7 +330,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: var(--project-search-input-font-color);
     font-size: 20px;
     width: 100%;
     padding-left: 10px;
@@ -339,7 +342,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: var(--project-search-input-font-color);
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;

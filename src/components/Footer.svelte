@@ -2,11 +2,16 @@
   <p>Website by Jonas_Jones 2021 - 2023</p>
 </div>
 
+<script>
+  //import main css file
+  import "../routes/+page.css";
+</script>
+
 <style>
   .footer {
     height: 1rem;
-    background-color: #000;
-    color: #fff;
+    background-color: var(--footer-background-color);
+    color: var(--footer-font-color);
     display: flex;
     justify-content: center;
     align-items: center;
