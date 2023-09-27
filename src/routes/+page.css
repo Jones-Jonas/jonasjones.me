@@ -47,6 +47,13 @@ a:hover {
   /* Place the background behind other content */
 }
 
+@media screen and (max-width: 768px) {
+  .parallax-background {
+    transform:none;
+  }
+
+}
+
 /* Set container styles */
 .container {
   display: flex;
