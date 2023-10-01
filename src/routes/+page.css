@@ -11,7 +11,7 @@
 }
 
 :root {
-	--background-color: #202324;
+  --background-color: #202324;
   --font-color: rgb(0, 255, 0);
   --font-hover-color: green;
   --header-background-color: rgba(0, 0, 0, 0.4);
@@ -22,17 +22,19 @@
   --footer-background-color: #000;
   --footer-font-color: #fff;
   --projects-background-color: rgba(0, 0, 0, 0.8);
+  --project-link-background-color: var(--projects-background-color);
   --project-border-color: white;
   --project-link-color: white;
   --project-link-color-hover: #666;
+  --project-version-color: white;
   --project-search-background-color: rgba(0, 0, 0, 0.678);
   --project-search-input-font-color: white;
   --nav-menu-background-color: rgba(0, 0, 0, 0.8)
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-		--background-color: #dfdcdb;
+  :root {
+    --background-color: #dfdcdb;
     --font-color: green;
     --font-hover-color: rgb(0, 255, 0);
     --header-background-color: rgba(255, 255, 255, 0.5);
@@ -44,12 +46,13 @@
     --footer-font-color: #000;
     --projects-background-color: rgba(255, 255, 255, 0.4);
     --project-border-color: black;
-    --project-link-color: white;
+    --project-link-color: black;
     --project-link-color-hover: #666;
+    --project-version-color: black;
     --project-search-background-color: rgba(255, 255, 255, 0.5);
     --project-search-input-font-color: black;
     --nav-menu-background-color: rgba(255, 255, 255, 0.8)
-	}
+  }
 }
 
 
@@ -93,7 +96,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .parallax-background {
-    transform:none;
+    transform: none;
   }
 
 }

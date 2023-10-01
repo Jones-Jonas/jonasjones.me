@@ -7,9 +7,9 @@
     "categories": [
       ""
     ],
-    "languages": [
-      ""
-    ],
+    "languages": {
+      "": 0
+    },
     "gh_api": "",
     "version": "",
     "backgroud": "",
@@ -29,9 +29,9 @@
     "categories": [
       "tools"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 2558
+    },
     "gh_api": "J-onasJones/BashCommandAliasEditor",
     "version": "2.0.1",
     "backgroud": "/bashcmdaliaseditor.png",
@@ -52,15 +52,16 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 26624
+    },
     "gh_api": "J-onasJones/BetterConsoleMC",
     "version": "1.0.0",
     "backgroud": "/betterconsolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/BetterConsoleMC",
-      "MR": "https://modrinth.com/mod/betterconsolemc"
+      "MR": "https://modrinth.com/mod/betterconsolemc",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/betterconsolemc"
     },
     "visible": true,
     "last_update": 1695758182
@@ -78,9 +79,9 @@
       "quilt",
       "lib"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 9776
+    },
     "gh_api": "J-onasJones/BetterSimpleConfig",
     "version": "1.0",
     "backgroud": "/bettersimpleconfig.png",
@@ -101,15 +102,16 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 14706
+    },
     "gh_api": "J-onasJones/ConsoleMC",
     "version": "0.1.1",
     "backgroud": "/consolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/ConsoleMC",
-      "MR": "https://modrinth.com/mod/consolemc"
+      "MR": "https://modrinth.com/mod/consolemc",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/consolemc"
     },
     "visible": true,
     "last_update": 1695316595
@@ -123,10 +125,10 @@
       "tools",
       "game"
     ],
-    "languages": [
-      "rslang",
-      "sh"
-    ],
+    "languages": {
+      "Rust": 25928,
+      "Shell": 8803
+    },
     "gh_api": "J-onasJones/dayz-linux-gui-launcher",
     "version": "0.1.0",
     "backgroud": "/dayzlauncher.png",
@@ -145,9 +147,9 @@
       "tools",
       "bazinga"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 8729
+    },
     "gh_api": "J-onasJones/ImageConverter",
     "version": "ImageConerter-1.2",
     "backgroud": "/imageconverter.png",
@@ -166,9 +168,9 @@
       "tools",
       "bazinga"
     ],
-    "languages": [
-      "lua"
-    ],
+    "languages": {
+      "Lua": 100
+    },
     "gh_api": "J-onasJones/j2-technologies",
     "version": "0.2.1ALPHA",
     "backgroud": "/j2tech.png",
@@ -187,9 +189,9 @@
       "api",
       "tools"
     ],
-    "languages": [
-      "js"
-    ],
+    "languages": {
+      "JavaScript": 0
+    },
     "gh_api": "J-onasJones/jonas_jones-api",
     "version": "---",
     "backgroud": "/jjapi.png",
@@ -210,14 +212,16 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 51381
+    },
     "gh_api": "J-onasJones/McWebserver",
     "version": "0.3.1",
     "backgroud": "/mcwebserver.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/McWebserver"
+      "GH": "https://github.com/J-onasJones/McWebserver",
+      "MR": "https://modrinth.com/mod/mcwebserver",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/mcwebserver"
     },
     "visible": true,
     "last_update": 1695459555
@@ -232,9 +236,9 @@
       "mcmodding",
       "forge"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 24337
+    },
     "gh_api": "J-onasJones/McWebserver-forge",
     "version": "0.2",
     "backgroud": "/mcwebserver.png",
@@ -255,9 +259,9 @@
       "tools",
       "bazinga"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 100
+    },
     "gh_api": "J-onasJones/Make-ZIP-less-compact",
     "version": "1.1",
     "backgroud": "/mkzplsscmpct.png",
@@ -275,9 +279,10 @@
     "categories": [
       "tools"
     ],
-    "languages": [
-      "python"
-    ],
+    "languages": {
+      "Python": 3798,
+      "Shell": 189
+    },
     "gh_api": "J-onasJones/Markdown-Compiler",
     "version": "0.1",
     "backgroud": "/j2tech.png",
@@ -298,9 +303,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 55421
+    },
     "gh_api": "J-onasJones/Microcraft",
     "version": "0.1+alpha1",
     "backgroud": "/microcraft.png",
@@ -319,9 +324,9 @@
       "minecraft",
       "tools"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 5350
+    },
     "gh_api": "J-onasJones/Minecraft-server-Status",
     "version": "1.3",
     "backgroud": "/mcserverstatus.png",
@@ -340,9 +345,10 @@
       "minecraft",
       "tools"
     ],
-    "languages": [
-      "rslang"
-    ],
+    "languages": {
+      "Rust": 4062,
+      "Shell": 580
+    },
     "gh_api": "J-onasJones/moddah",
     "version": "0.1+alpha1",
     "backgroud": "/moddah.png",
@@ -363,9 +369,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 100
+    },
     "gh_api": "J-onasJones/Mystery-core-mod",
     "version": "---",
     "backgroud": "/mysterymod.png",
@@ -386,9 +392,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 100
+    },
     "gh_api": "J-onasJones/MysteryDimensions",
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
@@ -409,9 +415,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 100
+    },
     "gh_api": "J-onasJones/MysteryDungeons",
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
@@ -432,9 +438,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 1243
+    },
     "gh_api": "J-onasJones/MysteryMod",
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
@@ -455,9 +461,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 100
+    },
     "gh_api": "J-onasJones/MysteryRPG",
     "version": "0.1+alpha1",
     "backgroud": "/mysterymod.png",
@@ -478,15 +484,16 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 15096
+    },
     "gh_api": "J-onasJones/NotEnoughCursedness",
     "version": "0.2",
     "backgroud": "/notenoughcursedness.png",
     "links": {
       "GH": "https://github.com/J-onasJones/NotEnoughCursedness",
-      "MR": "https://modrinth.com/mod/not-enough-cursedness"
+      "MR": "https://modrinth.com/mod/not-enough-cursedness",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/not-enough-cursedness"
     },
     "visible": true,
     "last_update": 1695317123
@@ -499,11 +506,11 @@
     "categories": [
       "tools"
     ],
-    "languages": [
-      "c++",
-      "rslang",
-      "c"
-    ],
+    "languages": {
+      "C++": 40828,
+      "Rust": 3278,
+      "C": 130
+    },
     "gh_api": "J-onasJones/PI-server-rack",
     "version": "0.1+alpha1",
     "backgroud": "/pi-server-rack.png",
@@ -522,9 +529,9 @@
       "bot",
       "dcbot"
     ],
-    "languages": [
-      "js"
-    ],
+    "languages": {
+      "JavaScript": 4282
+    },
     "gh_api": "J-onasJones/PinBoardBot",
     "version": "0.1",
     "backgroud": "/pinboardbot.png",
@@ -542,9 +549,9 @@
     "categories": [
       "lib"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 100
+    },
     "gh_api": "J-onasJones/pyterm2d",
     "version": "---",
     "backgroud": "/pyterm2d.png",
@@ -563,9 +570,9 @@
       "lib",
       "tools"
     ],
-    "languages": [
-      "rslang"
-    ],
+    "languages": {
+      "Rust": 100
+    },
     "gh_api": "J-onasJones/Qr-generator",
     "version": "---",
     "backgroud": "/qrgen.png",
@@ -585,16 +592,16 @@
       "tools",
       "bazinga"
     ],
-    "languages": [
-      "py"
-    ],
+    "languages": {
+      "Python": 100
+    },
     "gh_api": "J-onasJones/Resourcepack-Editor",
     "version": "0.1+alpha1",
     "backgroud": "/rp-editor.png",
     "links": {
       "GH": "https://github.com/J-onasJones/Resourcepack-Editor"
     },
-    "visible": true,
+    "visible": false,
     "last_update": 1642114800
   },
   {
@@ -605,9 +612,7 @@
     "categories": [
       "minecraft"
     ],
-    "languages": [
-      ""
-    ],
+    "languages": {},
     "gh_api": "J-onasJones/simp-resourcepack",
     "version": "1.0",
     "backgroud": "/simp-rp.png",
@@ -628,9 +633,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 1291
+    },
     "gh_api": "J-onasJones/SpotifyMC",
     "version": "0.1+alpha1",
     "backgroud": "/spotifymc.png",
@@ -649,10 +654,12 @@
       "webdev",
       "template"
     ],
-    "languages": [
-      "svelte",
-      "markdown"
-    ],
+    "languages": {
+      "Svelte": 2675,
+      "JavaScript": 1505,
+      "CSS": 395,
+      "HTML": 329
+    },
     "gh_api": "J-onasJones/SvelteMarkdownWiki",
     "version": "1.0",
     "backgroud": "/homepage.png",
@@ -673,9 +680,9 @@
       "fabric",
       "quilt"
     ],
-    "languages": [
-      "java"
-    ],
+    "languages": {
+      "Java": 21878
+    },
     "gh_api": "J-onasJones/SyncMod",
     "version": "0.1+alpha1",
     "backgroud": "/syncmod.png",
@@ -693,9 +700,9 @@
     "categories": [
       "game"
     ],
-    "languages": [
-      "godot"
-    ],
+    "languages": {
+      "Godot": 100
+    },
     "gh_api": "J-onasJones/TheBobbycarGame",
     "version": "---",
     "backgroud": "/bobbycargame.png",
@@ -714,12 +721,12 @@
       "webdev",
       "website"
     ],
-    "languages": [
-      "css",
-      "svelte",
-      "js",
-      "html"
-    ],
+    "languages": {
+      "Svelte": 36691,
+      "CSS": 5152,
+      "JavaScript": 618,
+      "HTML": 406
+    },
     "gh_api": "J-onasJones/jonasjones.dev",
     "version": "1.1.1",
     "backgroud": "/homepage.png",
@@ -727,7 +734,7 @@
       "GH": "https://github.com/J-onasJones/jonasjones.dev"
     },
     "visible": true,
-    "last_update": 1695835918
+    "last_update": 1695836051
   },
   {
     "title": "Website V1",
@@ -738,16 +745,16 @@
       "webdev",
       "website"
     ],
-    "languages": [
-      "html",
-      "css",
-      "js"
-    ],
+    "languages": {
+      "HTML": 234599,
+      "CSS": 39007
+    },
     "gh_api": "J-onasJones/Website-v1",
     "version": "1.0",
     "backgroud": "/oldwebsite.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Website-v1"
+      "GH": "https://github.com/J-onasJones/Website-v1",
+      "WB": "https://old.jonasjones.me"
     },
     "visible": true,
     "last_update": 1694470228
@@ -760,11 +767,11 @@
     "categories": [
       "game"
     ],
-    "languages": [
-      "js",
-      "css",
-      "html"
-    ],
+    "languages": {
+      "HTML": 100,
+      "JavaScript": 100,
+      "CSS": 100
+    },
     "gh_api": "J-onasJones/Winception",
     "version": "0.1+alpha1",
     "backgroud": "/winception.png",
@@ -782,10 +789,9 @@
     "categories": [
       "tools"
     ],
-    "languages": [
-      "py",
-      "rslang"
-    ],
+    "languages": {
+      "Python": 26637
+    },
     "gh_api": "J-onasJones/WindowsBloatwareRemover",
     "version": "0.1.2",
     "backgroud": "/bloatremover.png",
@@ -803,9 +809,9 @@
     "categories": [
       "tools"
     ],
-    "languages": [
-      "rslang"
-    ],
+    "languages": {
+      "Rust": 100
+    },
     "gh_api": "J-onasJones/windows-info-overlay",
     "version": "---",
     "backgroud": "/winoverlay.png",
