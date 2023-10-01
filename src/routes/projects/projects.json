@@ -722,19 +722,19 @@
       "website"
     ],
     "languages": {
-      "Svelte": 36691,
-      "CSS": 5152,
-      "JavaScript": 618,
+      "Svelte": 37754,
+      "CSS": 5297,
+      "JavaScript": 1577,
       "HTML": 406
     },
     "gh_api": "J-onasJones/jonasjones.dev",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "backgroud": "/homepage.png",
     "links": {
       "GH": "https://github.com/J-onasJones/jonasjones.dev"
     },
     "visible": true,
-    "last_update": 1695836051
+    "last_update": 1696182914
   },
   {
     "title": "Website V1",
