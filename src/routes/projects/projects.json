@@ -60,7 +60,8 @@
     "backgroud": "/betterconsolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/BetterConsoleMC",
-      "MR": "https://modrinth.com/mod/betterconsolemc"
+      "MR": "https://modrinth.com/mod/betterconsolemc",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/betterconsolemc"
     },
     "visible": true,
     "last_update": 1695758182
@@ -109,7 +110,8 @@
     "backgroud": "/consolemc.png",
     "links": {
       "GH": "https://github.com/J-onasJones/ConsoleMC",
-      "MR": "https://modrinth.com/mod/consolemc"
+      "MR": "https://modrinth.com/mod/consolemc",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/consolemc"
     },
     "visible": true,
     "last_update": 1695316595
@@ -217,7 +219,9 @@
     "version": "0.3.1",
     "backgroud": "/mcwebserver.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/McWebserver"
+      "GH": "https://github.com/J-onasJones/McWebserver",
+      "MR": "https://modrinth.com/mod/mcwebserver",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/mcwebserver"
     },
     "visible": true,
     "last_update": 1695459555
@@ -488,7 +492,8 @@
     "backgroud": "/notenoughcursedness.png",
     "links": {
       "GH": "https://github.com/J-onasJones/NotEnoughCursedness",
-      "MR": "https://modrinth.com/mod/not-enough-cursedness"
+      "MR": "https://modrinth.com/mod/not-enough-cursedness",
+      "CF": "https://www.curseforge.com/minecraft/mc-mods/not-enough-cursedness"
     },
     "visible": true,
     "last_update": 1695317123
@@ -596,7 +601,7 @@
     "links": {
       "GH": "https://github.com/J-onasJones/Resourcepack-Editor"
     },
-    "visible": true,
+    "visible": false,
     "last_update": 1642114800
   },
   {
@@ -748,7 +753,8 @@
     "version": "1.0",
     "backgroud": "/oldwebsite.png",
     "links": {
-      "GH": "https://github.com/J-onasJones/Website-v1"
+      "GH": "https://github.com/J-onasJones/Website-v1",
+      "WB": "https://old.jonasjones.me"
     },
     "visible": true,
     "last_update": 1694470228
