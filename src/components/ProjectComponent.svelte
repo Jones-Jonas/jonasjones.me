@@ -20,7 +20,7 @@
         <div />
         <div class="project-topline">
             <div class="project-title">{project.title}</div>
-            <div>
+            <div class="project-titleinfo">
                 <a
                     class="project-status"
                     style="color: {project.statuscolor};border-color:{project.statuscolor}"
@@ -116,5 +116,10 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+    }
+
+    .project-titleinfo {
+        display: flex;
+        align-items: center;
     }
 </style>
