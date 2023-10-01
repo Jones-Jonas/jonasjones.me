@@ -1,5 +1,7 @@
 <script>
   export let project;
+
+  import "../routes/+page.css";
 </script>
 
 <div class="project-links">

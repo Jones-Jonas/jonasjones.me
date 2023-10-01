@@ -25,6 +25,7 @@
   --project-border-color: white;
   --project-link-color: white;
   --project-link-color-hover: #666;
+  --project-version-color: white;
   --project-search-background-color: rgba(0, 0, 0, 0.678);
   --project-search-input-font-color: white;
   --nav-menu-background-color: rgba(0, 0, 0, 0.8)
@@ -44,8 +45,9 @@
     --footer-font-color: #000;
     --projects-background-color: rgba(255, 255, 255, 0.4);
     --project-border-color: black;
-    --project-link-color: white;
+    --project-link-color: black;
     --project-link-color-hover: #666;
+    --project-version-color: black;
     --project-search-background-color: rgba(255, 255, 255, 0.5);
     --project-search-input-font-color: black;
     --nav-menu-background-color: rgba(255, 255, 255, 0.8)

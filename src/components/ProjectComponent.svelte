@@ -50,13 +50,13 @@
     .project-version {
         font-size: 20px;
         font-weight: bold;
-        color: white;
+        color: var(--project-version-color);
         margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: -4px;
         padding: 2px;
-        border: 3px solid #dcdcdc;
+        border: 3px solid var(--project-version-color);
         border-radius: 100px;
         float: right;
     }
