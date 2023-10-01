@@ -1,6 +1,7 @@
 <script>
     export let project;
     import ProjectsLinks from "./ProjectsLinks.svelte";
+    import ProjectLanguageIndicator from "./ProjectLanguageIndicator.svelte";
 
     import "../routes/+page.css";
 </script>
@@ -8,13 +9,18 @@
 <div class="top">
     <img class="image" src="/project-banners{project.backgroud}" alt=" " />
 </div>
-
+<div class="project-languages">
+    <ProjectLanguageIndicator {project} />
+</div>
+<div class="project-links">
+    <ProjectsLinks {project} />
+</div>
 <div class="bottom">
     <div class="content">
+        <div />
         <div class="project-topline">
             <div class="project-title">{project.title}</div>
-            <div class="project-links">
-                <ProjectsLinks {project} />
+            <div>
                 <a
                     class="project-status"
                     style="color: {project.statuscolor};border-color:{project.statuscolor}"
@@ -73,6 +79,8 @@
         align-items: right;
         text-align: right;
         align-content: right;
+        width: 100%;
+        border-bottom: 1px solid var(--project-border-color);
     }
 
     .top {
@@ -101,5 +109,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .project-languages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 </style>

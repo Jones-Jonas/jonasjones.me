@@ -37,23 +37,23 @@
 
 <style>
   .project-links {
-    display: inline-block;
-    align-items: right;
-    text-align: right;
-    align-content: right;
-    margin-right: 10px;
+    display: flex;
+    width: 100%;
   }
   .project-link {
-    display: inline-block;
-    margin-left: 10px;
     color: var(--project-link-color);
+    background-color: var(--project-link-background-color);
     text-decoration: none;
     transition: color 0.3s;
     margin-top: 3px;
     font-size: 25px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .project-link:hover {
     color: var(--project-link-color-hover);
+    background-color: var(--project-link-background-color-hover);
   }
 </style>
