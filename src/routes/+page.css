@@ -11,7 +11,7 @@
 }
 
 :root {
-	--background-color: #202324;
+  --background-color: #202324;
   --font-color: rgb(0, 255, 0);
   --font-hover-color: green;
   --header-background-color: rgba(0, 0, 0, 0.4);
@@ -31,8 +31,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-		--background-color: #dfdcdb;
+  :root {
+    --background-color: #dfdcdb;
     --font-color: green;
     --font-hover-color: rgb(0, 255, 0);
     --header-background-color: rgba(255, 255, 255, 0.5);
@@ -49,7 +49,7 @@
     --project-search-background-color: rgba(255, 255, 255, 0.5);
     --project-search-input-font-color: black;
     --nav-menu-background-color: rgba(255, 255, 255, 0.8)
-	}
+  }
 }
 
 
@@ -93,7 +93,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .parallax-background {
-    transform:none;
+    transform: none;
   }
 
 }
