@@ -1,5 +1,6 @@
-<script>
-    export let project;
+<script lang='ts'>
+    //import type Project from "../scripts/interfaces";
+    export let project/*: Project*/;
 
     import { onMount } from "svelte";
 

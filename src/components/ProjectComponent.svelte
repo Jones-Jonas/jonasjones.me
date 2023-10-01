@@ -1,9 +1,11 @@
-<script>
-    export let project;
+<script lang="ts">
+    //import type Project from "../scripts/interfaces";
+    export let project/*: Project*/;
     import ProjectsLinks from "./ProjectsLinks.svelte";
     import ProjectLanguageIndicator from "./ProjectLanguageIndicator.svelte";
 
     import "../routes/+page.css";
+
 </script>
 
 <div class="top">
@@ -21,11 +23,15 @@
         <div class="project-topline">
             <div class="project-title">{project.title}</div>
             <div class="project-titleinfo">
-                <a
-                    class="project-status"
-                    style="color: {project.statuscolor};border-color:{project.statuscolor}"
-                    >{project.status}</a
-                ><a class="project-version">{project.version}</a>
+                <div>
+                    <span
+                        class="project-status"
+                        style="color: {project.statuscolor};border-color:{project.statuscolor}"
+                    >
+                        {project.status}
+                    </span>
+                    <span class="project-version">{project.version}</span>
+                </div>
             </div>
         </div>
         <div class="project-description">{project.description}</div>
