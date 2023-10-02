@@ -9,6 +9,7 @@
   import projects from "./projects.json";
 
   import "../../routes/+page.css";
+    import { construct_svelte_component } from "svelte/internal";
 
   var searchResults = projects.filter((project) => {
     return project.visible === true;
@@ -20,12 +21,15 @@
   var searchstatus = "";
 
   function handleSearchText(event) {
+    console.log(event.target.value)
     searchtext = event.target.value.toLowerCase();
+    console.log(searchtext);
     handleSearch();
   }
 
   function handleSearchCategory(event) {
     searchcategory = event.target.value.toLowerCase();
+    console.log(searchcategory);
     handleSearch();
   }
 
@@ -45,7 +49,7 @@
       var text =
         project.title.toLowerCase() + project.description.toLowerCase();
       var category = project.categories.join(" ").toLowerCase();
-      var language = project.languages.join(" ").toLowerCase();
+      var language = Object.keys(project.languages).join(" ").toLowerCase();
       var status = project.status.toLowerCase();
       return (
         text.includes(searchtext) &&
