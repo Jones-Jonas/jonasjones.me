@@ -128,4 +128,10 @@
         display: flex;
         align-items: center;
     }
+
+    @media only screen and (max-width: 620px) {
+        .project-topline {
+            flex-direction: column;
+        }
+    }
 </style>

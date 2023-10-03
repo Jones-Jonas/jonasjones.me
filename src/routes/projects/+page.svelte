@@ -147,7 +147,7 @@
 
   .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
     gap: 20px;
     width: 100%;
   }
@@ -158,7 +158,7 @@
     overflow: hidden;
     cursor: pointer;
     border: 2px solid var(--project-border-color);
-    min-width: 200px;
+    min-width: 530px;
     background-color: var(--background-color);
   }
 
@@ -194,6 +194,10 @@
   @media only screen and (max-width: 620px) {
     .project-container {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .project {
+      min-width: 200px;
     }
   }
 </style>
