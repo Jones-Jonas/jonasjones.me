@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   import FontAwesome from "../../components/FontAwesome.svelte";
   import Footer from "../../components/Footer.svelte";
   import NavBar from "../../components/NavBar.svelte";
@@ -6,14 +8,17 @@
   import Padding from "../../components/padding.svelte";
   import ProjectComponent from "../../components/ProjectComponent.svelte";
 
-  import projects from "./projects.json";
+  //import projects from "./projects.json";
 
   import "../../routes/+page.css";
-    import { construct_svelte_component } from "svelte/internal";
+
+  let projects = [];
 
   var searchResults = projects.filter((project) => {
     return project.visible === true;
   });
+
+  let projects_loading = "block";
 
   var searchtext = "";
   var searchcategory = "";
@@ -60,6 +65,18 @@
       );
     });
   }
+  // use onmount to fetch projects from https://cdn.jonasjones.dev/api/projects/projects.json
+  onMount(async () => {
+    const res = await fetch(
+      "https://cdn.jonasjones.dev/api/projects/projects.json"
+    );
+    const data = await res.json();
+    projects = data;
+    searchResults = projects.filter((project) => {
+      return project.visible === true;
+    });
+    projects_loading = "none";
+  });
 </script>
 
 <FontAwesome />
@@ -127,6 +144,7 @@
       >
     </div>
     <div class="project-container">
+      <h1 style="display:{projects_loading}">Loading...</h1>
       {#each searchResults as project}
         <div class="project">
           <ProjectComponent {project} />
