@@ -10,18 +10,12 @@
   <title>Jonas_Jones</title>
   <Padding />
   <div class="image-wrapper">
-    <div class="card-front">
       <!-- svelte-ignore a11y-img-redundant-alt -->
-      <img
-        src="/icon_800x800_transparent.webp"
-        alt="My Picture"
-        class="picture"
-      />
-    </div>
-    <div class="card-back">
-      <!-- svelte-ignore a11y-img-redundant-alt -->
-      <img src="/root_logo.webp" alt="My Picture" class="picture" />
-    </div>
+    <img
+      src="/icon_800x800_transparent.webp"
+      alt="My Picture"
+      class="picture"
+    />
   </div>
   <div class="line">
     <hr />
