@@ -71,7 +71,7 @@
       "https://cdn.jonasjones.dev/api/projects/projects.json"
     );
     const data = await res.json();
-    projects = data;
+    projects = data.slice(1); // remove first element as it is the last_update timestamp of the file
     searchResults = projects.filter((project) => {
       return project.visible === true;
     });
