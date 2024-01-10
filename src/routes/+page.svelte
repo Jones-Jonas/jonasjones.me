@@ -31,7 +31,7 @@
   </div>
   <div class="social-media">
     <div class="row">
-      <a href="https://github.com/J-onasJones"><i class="fab fa-github" /></a>
+      <a href="https://github.com/JonasunderscoreJones"><i class="fab fa-github" /></a>
       <a href="https://www.youtube.com/channel/UCVIxvKBIMSMgurYS8pK7fSg"
         ><i class="fab fa-youtube" /></a
       >
